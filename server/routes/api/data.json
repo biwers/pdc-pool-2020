@@ -1,0 +1,857 @@
+{"name": "Jani Hakanpaa", "p_id": 8475825, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Korbinian Holzer", "p_id": 8473560, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Michael Del Zotto", "p_id": 8474584, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Cam Fowler", "p_id": 8475764, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Josh Manson", "p_id": 8476312, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Hampus Lindholm", "p_id": 8476854, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Brendan Guhle", "p_id": 8478425, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Jacob Larsson", "p_id": 8478491, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Josh Mahura", "p_id": 8479372, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Simon Benoit", "p_id": 8481122, "pos": "D", "team": "Anaheim Ducks", "points": 0}
+{"name": "Andreas Martinsen", "p_id": 8478561, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Benoit-Olivier Groulx", "p_id": 8480870, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Brayden Tracey", "p_id": 8481530, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Ryan Getzlaf", "p_id": 8470612, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Adam Henrique", "p_id": 8474641, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Derek Grant", "p_id": 8474683, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Jakob Silfverberg", "p_id": 8475164, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Nicolas Deslauriers", "p_id": 8475235, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Sam Carrick", "p_id": 8475842, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Rickard Rakell", "p_id": 8476483, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Devin Shore", "p_id": 8476913, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Carter Rowney", "p_id": 8477240, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Nick Ritchie", "p_id": 8477941, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Ondrej Kase", "p_id": 8478131, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Daniel Sprong", "p_id": 8478466, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Troy Terry", "p_id": 8478873, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Sam Steel", "p_id": 8479351, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Max Jones", "p_id": 8479368, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Max Comtois", "p_id": 8480031, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Isac Lundestrom", "p_id": 8480806, "pos": "F", "team": "Anaheim Ducks", "points": 0}
+{"name": "Ryan Miller", "p_id": 8468011, "pos": "G", "team": "Anaheim Ducks", "points": 0}
+{"name": "John Gibson", "p_id": 8476434, "pos": "G", "team": "Anaheim Ducks", "points": 0}
+{"name": "Kyle Capobianco", "p_id": 8478476, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Alex Goligoski", "p_id": 8471274, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Niklas Hjalmarsson", "p_id": 8471769, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Jason Demers", "p_id": 8474218, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Oliver Ekman-Larsson", "p_id": 8475171, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Jordan Oesterle", "p_id": 8477851, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Jakob Chychrun", "p_id": 8479345, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Ilya Lyubushkin", "p_id": 8480950, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Victor Soderstrom", "p_id": 8481599, "pos": "D", "team": "Arizona Coyotes", "points": 0}
+{"name": "Brad Richardson", "p_id": 8470755, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Carl Soderberg", "p_id": 8471262, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Michael Grabner", "p_id": 8473546, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Phil Kessel", "p_id": 8473548, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Derek Stepan", "p_id": 8474613, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Vinnie Hinostroza", "p_id": 8476994, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Nick Schmaltz", "p_id": 8477951, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Christian Dvorak", "p_id": 8477989, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Christian Fischer", "p_id": 8478432, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Lawson Crouse", "p_id": 8478474, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Conor Garland", "p_id": 8478856, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Clayton Keller", "p_id": 8479343, "pos": "F", "team": "Arizona Coyotes", "points": 0}
+{"name": "Darcy Kuemper", "p_id": 8475311, "pos": "G", "team": "Arizona Coyotes", "points": 0}
+{"name": "Antti Raanta", "p_id": 8477293, "pos": "G", "team": "Arizona Coyotes", "points": 0}
+{"name": "Ivan Prosvetov", "p_id": 8481031, "pos": "G", "team": "Arizona Coyotes", "points": 0}
+{"name": "Zdeno Chara", "p_id": 8465009, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Steven Kampfer", "p_id": 8474000, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "John Moore", "p_id": 8475186, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Kevan Miller", "p_id": 8476191, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Torey Krug", "p_id": 8476792, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Matt Grzelcyk", "p_id": 8476891, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Connor Clifton", "p_id": 8477365, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Jakub Zboril", "p_id": 8478415, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Brandon Carlo", "p_id": 8478443, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Charlie McAvoy", "p_id": 8479325, "pos": "D", "team": "Boston Bruins", "points": 0}
+{"name": "Patrice Bergeron", "p_id": 8470638, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "David Backes", "p_id": 8470655, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "David Krejci", "p_id": 8471276, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Brad Marchand", "p_id": 8473419, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Charlie Coyle", "p_id": 8475745, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Chris Wagner", "p_id": 8475780, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Joakim Nordstrom", "p_id": 8475807, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Sean Kuraly", "p_id": 8476374, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Brett Ritchie", "p_id": 8476439, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Anton Blidh", "p_id": 8477320, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Peter Cehlarik", "p_id": 8477417, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "David Pastrnak", "p_id": 8477956, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Danton Heinen", "p_id": 8478046, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Anders Bjork", "p_id": 8478075, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Jake DeBrusk", "p_id": 8478498, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Cameron Hughes", "p_id": 8478888, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Trent Frederic", "p_id": 8479365, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Jack Studnicka", "p_id": 8480021, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Karson Kuhlman", "p_id": 8480901, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Par Lindholm", "p_id": 8480944, "pos": "F", "team": "Boston Bruins", "points": 0}
+{"name": "Jaroslav Halak", "p_id": 8470860, "pos": "G", "team": "Boston Bruins", "points": 0}
+{"name": "Tuukka Rask", "p_id": 8471695, "pos": "G", "team": "Boston Bruins", "points": 0}
+{"name": "Maxime Lagace", "p_id": 8476509, "pos": "G", "team": "Boston Bruins", "points": 0}
+{"name": "Matt Hunwick", "p_id": 8471436, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Zach Bogosian", "p_id": 8474567, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Marco Scandella", "p_id": 8474618, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Colin Miller", "p_id": 8476525, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Jake McCabe", "p_id": 8476931, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "John Gilmour", "p_id": 8477337, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Rasmus Ristolainen", "p_id": 8477499, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Brandon Montour", "p_id": 8477986, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "William Borgen", "p_id": 8478840, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Casey Nelson", "p_id": 8479268, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Henri Jokiharju", "p_id": 8480035, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Rasmus Dahlin", "p_id": 8480839, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Lawrence Pilut", "p_id": 8480935, "pos": "D", "team": "Buffalo Sabres", "points": 0}
+{"name": "Vladimir Sobotka", "p_id": 8471743, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Kyle Okposo", "p_id": 8473449, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Marcus Johansson", "p_id": 8475149, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Johan Larsson", "p_id": 8475728, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Jeff Skinner", "p_id": 8475784, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Scott Wilson", "p_id": 8476293, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Zemgus Girgensons", "p_id": 8476878, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Jimmy Vesey", "p_id": 8476918, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Remi Elie", "p_id": 8477461, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Curtis Lazar", "p_id": 8477508, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Conor Sheary", "p_id": 8477839, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Sam Reinhart", "p_id": 8477933, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Victor Olofsson", "p_id": 8478109, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Jack Eichel", "p_id": 8478403, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Evan Rodrigues", "p_id": 8478542, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Rasmus Asplund", "p_id": 8479335, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Tage Thompson", "p_id": 8479420, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Casey Mittelstadt", "p_id": 8479999, "pos": "F", "team": "Buffalo Sabres", "points": 0}
+{"name": "Carter Hutton", "p_id": 8475622, "pos": "G", "team": "Buffalo Sabres", "points": 0}
+{"name": "Linus Ullmark", "p_id": 8476999, "pos": "G", "team": "Buffalo Sabres", "points": 0}
+{"name": "Ukko-Pekka Luukkonen", "p_id": 8480045, "pos": "G", "team": "Buffalo Sabres", "points": 0}
+{"name": "Brandon Davidson", "p_id": 8475869, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Juuso Valimaki", "p_id": 8479976, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Mark Giordano", "p_id": 8470966, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Travis Hamonic", "p_id": 8474612, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Michael Stone", "p_id": 8474628, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "TJ Brodie", "p_id": 8474673, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Noah Hanifin", "p_id": 8478396, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Rasmus Andersson", "p_id": 8478397, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Oliver Kylington", "p_id": 8478430, "pos": "D", "team": "Calgary Flames", "points": 0}
+{"name": "Milan Lucic", "p_id": 8473473, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Michael Frolik", "p_id": 8473564, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Mikael Backlund", "p_id": 8474150, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Johnny Gaudreau", "p_id": 8476346, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Alan Quine", "p_id": 8476409, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Mark Jankowski", "p_id": 8476873, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Elias Lindholm", "p_id": 8477496, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Sean Monahan", "p_id": 8477497, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Sam Bennett", "p_id": 8477935, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Andrew Mangiapane", "p_id": 8478233, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Austin Czarnik", "p_id": 8478512, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Derek Ryan", "p_id": 8478585, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Matthew Tkachuk", "p_id": 8479314, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Dillon Dube", "p_id": 8479346, "pos": "F", "team": "Calgary Flames", "points": 0}
+{"name": "Cam Talbot", "p_id": 8475660, "pos": "G", "team": "Calgary Flames", "points": 0}
+{"name": "David Rittich", "p_id": 8479496, "pos": "G", "team": "Calgary Flames", "points": 0}
+{"name": "Jake Gardiner", "p_id": 8474581, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Joel Edmundson", "p_id": 8476441, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Dougie Hamilton", "p_id": 8476462, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Jaccob Slavin", "p_id": 8476958, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Brett Pesce", "p_id": 8477488, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Haydn Fleury", "p_id": 8477938, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Roland McKeown", "p_id": 8477981, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Gustav Forsling", "p_id": 8478055, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Chase Priskie", "p_id": 8479597, "pos": "D", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Jordan Staal", "p_id": 8473533, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Erik Haula", "p_id": 8475287, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Nino Niederreiter", "p_id": 8475799, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Brian Gibbons", "p_id": 8476207, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Ryan Dzingel", "p_id": 8476288, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Teuvo Teravainen", "p_id": 8476882, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Jordan Martinook", "p_id": 8476921, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Brock McGinn", "p_id": 8476934, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Warren Foegele", "p_id": 8477998, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Lucas Wallmark", "p_id": 8478027, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Clark Bishop", "p_id": 8478056, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Sebastian Aho", "p_id": 8478427, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Julien Gauthier", "p_id": 8479328, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Martin Necas", "p_id": 8480039, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Andrei Svechnikov", "p_id": 8480830, "pos": "F", "team": "Carolina Hurricanes", "points": 0}
+{"name": "James Reimer", "p_id": 8473503, "pos": "G", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Petr Mrazek", "p_id": 8475852, "pos": "G", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Anton Forsberg", "p_id": 8476341, "pos": "G", "team": "Carolina Hurricanes", "points": 0}
+{"name": "Duncan Keith", "p_id": 8470281, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Brent Seabrook", "p_id": 8470607, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Calvin de Haan", "p_id": 8475177, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Connor Murphy", "p_id": 8476473, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Olli Maatta", "p_id": 8476874, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Slater Koekkoek", "p_id": 8476886, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Erik Gustafsson", "p_id": 8476979, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Carl Dahlstrom", "p_id": 8477472, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Dennis Gilbert", "p_id": 8478502, "pos": "D", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Jonathan Toews", "p_id": 8473604, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Patrick Kane", "p_id": 8474141, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Zack Smith", "p_id": 8474250, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Andrew Shaw", "p_id": 8476381, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Brandon Saad", "p_id": 8476438, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Dominik Kubalik", "p_id": 8477330, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Ryan Carpenter", "p_id": 8477846, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Brendan Perlini", "p_id": 8477943, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "John Quenneville", "p_id": 8477961, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Dylan Strome", "p_id": 8478440, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Alex DeBrincat", "p_id": 8479337, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Alexander Nylander", "p_id": 8479423, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Drake Caggiula", "p_id": 8479465, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "David Kampf", "p_id": 8480144, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Kirby Dach", "p_id": 8481523, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Anton Wedin", "p_id": 8481637, "pos": "F", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Corey Crawford", "p_id": 8470645, "pos": "G", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Robin Lehner", "p_id": 8475215, "pos": "G", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Collin Delia", "p_id": 8480420, "pos": "G", "team": "Chicago Blackhawks", "points": 0}
+{"name": "Ian Cole", "p_id": 8474013, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Erik Johnson", "p_id": 8473446, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Mark Barberio", "p_id": 8474717, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Ryan Graves", "p_id": 8477435, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Nikita Zadorov", "p_id": 8477507, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Samuel Girard", "p_id": 8479398, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Conor Timmins", "p_id": 8479982, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Cale Makar", "p_id": 8480069, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Calle Rosen", "p_id": 8480157, "pos": "D", "team": "Colorado Avalanche", "points": 0}
+{"name": "Mikko Rantanen", "p_id": 8478420, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Colin Wilson", "p_id": 8474569, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Matt Calvert", "p_id": 8474685, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Nazem Kadri", "p_id": 8475172, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Joonas Donskoi", "p_id": 8475820, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Matt Nieto", "p_id": 8476442, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Gabriel Landeskog", "p_id": 8476455, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Jayson Megna", "p_id": 8477126, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Andre Burakovsky", "p_id": 8477444, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "J.T. Compher", "p_id": 8477456, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Nathan MacKinnon", "p_id": 8477492, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Valeri Nichushkin", "p_id": 8477501, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Pierre-Edouard Bellemare", "p_id": 8477930, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Vladislav Kamenev", "p_id": 8477973, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Tyson Jost", "p_id": 8479370, "pos": "F", "team": "Colorado Avalanche", "points": 0}
+{"name": "Philipp Grubauer", "p_id": 8475831, "pos": "G", "team": "Colorado Avalanche", "points": 0}
+{"name": "Pavel Francouz", "p_id": 8480925, "pos": "G", "team": "Colorado Avalanche", "points": 0}
+{"name": "David Savard", "p_id": 8475233, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Scott Harrington", "p_id": 8476449, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Ryan Murray", "p_id": 8476850, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Seth Jones", "p_id": 8477495, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Zach Werenski", "p_id": 8478460, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Dean Kukan", "p_id": 8478567, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Vladislav Gavrikov", "p_id": 8478882, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Markus Nutivaara", "p_id": 8478906, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Andrew Peeke", "p_id": 8479369, "pos": "D", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Brandon Dubinsky", "p_id": 8471273, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Nick Foligno", "p_id": 8473422, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Riley Nash", "p_id": 8474062, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Gustav Nyquist", "p_id": 8474679, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Cam Atkinson", "p_id": 8474715, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Boone Jenner", "p_id": 8476432, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Josh Anderson", "p_id": 8476981, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Oliver Bjorkstrand", "p_id": 8477416, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Marko Dano", "p_id": 8477448, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Alexander Wennberg", "p_id": 8477505, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Sonny Milano", "p_id": 8477947, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Pierre-Luc Dubois", "p_id": 8479400, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Alexandre Texier", "p_id": 8480074, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Emil Bemstrom", "p_id": 8480205, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Eric Robinson", "p_id": 8480762, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Jakob Lilja", "p_id": 8481650, "pos": "F", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Joonas Korpisalo", "p_id": 8476914, "pos": "G", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Elvis Merzlikins", "p_id": 8478007, "pos": "G", "team": "Columbus Blue Jackets", "points": 0}
+{"name": "Stephen Johns", "p_id": 8475730, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Andrej Sekera", "p_id": 8471284, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Roman Polak", "p_id": 8471392, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "John Klingberg", "p_id": 8475906, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Taylor Fedun", "p_id": 8476166, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Jamie Oleksiak", "p_id": 8476467, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Esa Lindell", "p_id": 8476902, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Joseph Cecconi", "p_id": 8478863, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Miro Heiskanen", "p_id": 8480036, "pos": "D", "team": "Dallas Stars", "points": 0}
+{"name": "Martin Hanzal", "p_id": 8471691, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Corey Perry", "p_id": 8470621, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Joe Pavelski", "p_id": 8470794, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Alexander Radulov", "p_id": 8471228, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Blake Comeau", "p_id": 8471260, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Andrew Cogliano", "p_id": 8471699, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Jamie Benn", "p_id": 8473994, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Justin Dowling", "p_id": 8475413, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Tyler Seguin", "p_id": 8475794, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Radek Faksa", "p_id": 8476889, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Mattias Janmark", "p_id": 8477406, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Jason Dickinson", "p_id": 8477450, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Roope Hintz", "p_id": 8478449, "pos": "F", "team": "Dallas Stars", "points": 0}
+{"name": "Anton Khudobin", "p_id": 8471418, "pos": "G", "team": "Dallas Stars", "points": 0}
+{"name": "Ben Bishop", "p_id": 8471750, "pos": "G", "team": "Dallas Stars", "points": 0}
+{"name": "Oliwer Kaski", "p_id": 8481639, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Trevor Daley", "p_id": 8470110, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Jonathan Ericsson", "p_id": 8470318, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Mike Green", "p_id": 8471242, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Patrik Nemeth", "p_id": 8475747, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Dylan McIlrath", "p_id": 8475795, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Danny DeKeyser", "p_id": 8477215, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Madison Bowey", "p_id": 8477474, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Joe Hicketts", "p_id": 8478176, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Dennis Cholowski", "p_id": 8479395, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Filip Hronek", "p_id": 8479425, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Jared McIsaac", "p_id": 8480862, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Moritz Seider", "p_id": 8481542, "pos": "D", "team": "Detroit Red Wings", "points": 0}
+{"name": "Filip Zadina", "p_id": 8480821, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Valtteri Filppula", "p_id": 8470047, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Frans Nielsen", "p_id": 8470144, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Justin Abdelkader", "p_id": 8471716, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Darren Helm", "p_id": 8471794, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Matt Puempel", "p_id": 8476477, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Luke Glendening", "p_id": 8476822, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Andreas Athanasiou", "p_id": 8476960, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Adam Erne", "p_id": 8477454, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Jacob de la Rose", "p_id": 8477455, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Tyler Bertuzzi", "p_id": 8477479, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Anthony Mantha", "p_id": 8477511, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Dylan Larkin", "p_id": 8477946, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Dominic Turgeon", "p_id": 8477994, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Christoffer Ehn", "p_id": 8478036, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Chase Pearson", "p_id": 8478486, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Michael Rasmussen", "p_id": 8479992, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Taro Hirose", "p_id": 8481433, "pos": "F", "team": "Detroit Red Wings", "points": 0}
+{"name": "Jimmy Howard", "p_id": 8470657, "pos": "G", "team": "Detroit Red Wings", "points": 0}
+{"name": "Jonathan Bernier", "p_id": 8473541, "pos": "G", "team": "Detroit Red Wings", "points": 0}
+{"name": "Calvin Pickard", "p_id": 8475717, "pos": "G", "team": "Detroit Red Wings", "points": 0}
+{"name": "Kris Russell", "p_id": 8471729, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Brandon Manning", "p_id": 8475430, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Adam Larsson", "p_id": 8476457, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Oscar Klefbom", "p_id": 8476472, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Matt Benning", "p_id": 8476988, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Darnell Nurse", "p_id": 8477498, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "William Lagesson", "p_id": 8478021, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Ethan Bear", "p_id": 8478451, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Logan Day", "p_id": 8480722, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Joel Persson", "p_id": 8480940, "pos": "D", "team": "Edmonton Oilers", "points": 0}
+{"name": "Kyle Brodziak", "p_id": 8470803, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "James Neal", "p_id": 8471707, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Sam Gagner", "p_id": 8474040, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Alex Chiasson", "p_id": 8475163, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Zack Kassian", "p_id": 8475178, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Riley Sheahan", "p_id": 8475772, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Josh Archibald", "p_id": 8476326, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Tomas Jurco", "p_id": 8476430, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Markus Granlund", "p_id": 8476440, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Ryan Nugent-Hopkins", "p_id": 8476454, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Jujhar Khaira", "p_id": 8476915, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Colby Cave", "p_id": 8477529, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Leon Draisaitl", "p_id": 8477934, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Connor McDavid", "p_id": 8478402, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Patrick Russell", "p_id": 8479466, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Joakim Nygard", "p_id": 8481638, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Gaetan Haas", "p_id": 8481813, "pos": "F", "team": "Edmonton Oilers", "points": 0}
+{"name": "Mike Smith", "p_id": 8469608, "pos": "G", "team": "Edmonton Oilers", "points": 0}
+{"name": "Mikko Koskinen", "p_id": 8475156, "pos": "G", "team": "Edmonton Oilers", "points": 0}
+{"name": "Keith Yandle", "p_id": 8471735, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Anton Stralman", "p_id": 8471873, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Mark Pysyk", "p_id": 8475796, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Mike Matheson", "p_id": 8476875, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "MacKenzie Weegar", "p_id": 8477346, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Josh Brown", "p_id": 8477384, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Aaron Ekblad", "p_id": 8477932, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Riley Stillman", "p_id": 8479388, "pos": "D", "team": "Florida Panthers", "points": 0}
+{"name": "Colton Sceviour", "p_id": 8474098, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Evgenii Dadonov", "p_id": 8474149, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Mike Hoffman", "p_id": 8474884, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Brett Connolly", "p_id": 8475792, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Vincent Trocheck", "p_id": 8476389, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Jonathan Huberdeau", "p_id": 8476456, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Dominic Toninato", "p_id": 8476952, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Aleksander Barkov", "p_id": 8477493, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Jayce Hawryluk", "p_id": 8477963, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Dryden Hunt", "p_id": 8478211, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Frank Vatrano", "p_id": 8478366, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Noel Acciari", "p_id": 8478569, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Denis Malgin", "p_id": 8478843, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Henrik Borgstrom", "p_id": 8479404, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Owen Tippett", "p_id": 8480015, "pos": "F", "team": "Florida Panthers", "points": 0}
+{"name": "Sergei Bobrovsky", "p_id": 8475683, "pos": "G", "team": "Florida Panthers", "points": 0}
+{"name": "Sam Montembeault", "p_id": 8478470, "pos": "G", "team": "Florida Panthers", "points": 0}
+{"name": "Alec Martinez", "p_id": 8474166, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Drew Doughty", "p_id": 8474563, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Paul LaDue", "p_id": 8476983, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Ben Hutton", "p_id": 8477018, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Joakim Ryan", "p_id": 8477046, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Kurtis MacDermid", "p_id": 8477073, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Matt Roy", "p_id": 8478911, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Sean Walker", "p_id": 8480336, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Tobias Bjornfot", "p_id": 8481600, "pos": "D", "team": "Los Angeles Kings", "points": 0}
+{"name": "Ilya Kovalchuk", "p_id": 8469454, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Jeff Carter", "p_id": 8470604, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Dustin Brown", "p_id": 8470606, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Anze Kopitar", "p_id": 8471685, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Trevor Lewis", "p_id": 8473453, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Mario Kempe", "p_id": 8474131, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Kyle Clifford", "p_id": 8475160, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Tyler Toffoli", "p_id": 8475726, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Adrian Kempe", "p_id": 8477960, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Michael Amadio", "p_id": 8478020, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Austin Wagner", "p_id": 8478455, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Carl Grundstrom", "p_id": 8479336, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Alex Iafallo", "p_id": 8480113, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Blake Lizotte", "p_id": 8481481, "pos": "F", "team": "Los Angeles Kings", "points": 0}
+{"name": "Jonathan Quick", "p_id": 8471734, "pos": "G", "team": "Los Angeles Kings", "points": 0}
+{"name": "Jack Campbell", "p_id": 8475789, "pos": "G", "team": "Los Angeles Kings", "points": 0}
+{"name": "Ryan Suter", "p_id": 8470600, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Greg Pateryn", "p_id": 8474688, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Jared Spurgeon", "p_id": 8474716, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Nick Seeler", "p_id": 8476372, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Jonas Brodin", "p_id": 8476463, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Brad Hunt", "p_id": 8476779, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Matt Dumba", "p_id": 8476856, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Carson Soucy", "p_id": 8477369, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Louie Belpedio", "p_id": 8478011, "pos": "D", "team": "Minnesota Wild", "points": 0}
+{"name": "Mikko Koivu", "p_id": 8469459, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Eric Staal", "p_id": 8470595, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Zach Parise", "p_id": 8470610, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Marcus Foligno", "p_id": 8475220, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Mats Zuccarello", "p_id": 8475692, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Jason Zucker", "p_id": 8475722, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Victor Rask", "p_id": 8476437, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "J.T. Brown", "p_id": 8476806, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Ryan Hartman", "p_id": 8477451, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Kevin Fiala", "p_id": 8477942, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Ryan Donato", "p_id": 8477987, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Jordan Greenway", "p_id": 8478413, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Joel Eriksson Ek", "p_id": 8478493, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Luke Kunin", "p_id": 8479316, "pos": "F", "team": "Minnesota Wild", "points": 0}
+{"name": "Devan Dubnyk", "p_id": 8471227, "pos": "G", "team": "Minnesota Wild", "points": 0}
+{"name": "Alex Stalock", "p_id": 8471774, "pos": "G", "team": "Minnesota Wild", "points": 0}
+{"name": "Karl Alzner", "p_id": 8473991, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Shea Weber", "p_id": 8470642, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Jeff Petry", "p_id": 8473507, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Ben Chiarot", "p_id": 8475279, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Mike Reilly", "p_id": 8476422, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Brett Kulak", "p_id": 8476967, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Christian Folin", "p_id": 8477850, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Victor Mete", "p_id": 8479376, "pos": "D", "team": "Montréal Canadiens", "points": 0}
+{"name": "Dale Weise", "p_id": 8474668, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Nate Thompson", "p_id": 8470775, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Paul Byron", "p_id": 8474038, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Tomas Tatar", "p_id": 8475193, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Jordan Weal", "p_id": 8475738, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Brendan Gallagher", "p_id": 8475848, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Nick Cousins", "p_id": 8476393, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Joel Armia", "p_id": 8476469, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Phillip Danault", "p_id": 8476479, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Charles Hudon", "p_id": 8476948, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Artturi Lehkonen", "p_id": 8477476, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Jonathan Drouin", "p_id": 8477494, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Max Domi", "p_id": 8477503, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Jesperi Kotkaniemi", "p_id": 8480829, "pos": "F", "team": "Montréal Canadiens", "points": 0}
+{"name": "Carey Price", "p_id": 8471679, "pos": "G", "team": "Montréal Canadiens", "points": 0}
+{"name": "Keith Kinkaid", "p_id": 8476234, "pos": "G", "team": "Montréal Canadiens", "points": 0}
+{"name": "Charlie Lindgren", "p_id": 8479292, "pos": "G", "team": "Montréal Canadiens", "points": 0}
+{"name": "Dan Hamhuis", "p_id": 8469465, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Yannick Weber", "p_id": 8474134, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Roman Josi", "p_id": 8474600, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Ryan Ellis", "p_id": 8475176, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Mattias Ekholm", "p_id": 8475218, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Matt Irwin", "p_id": 8475625, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Jarred Tinordi", "p_id": 8475797, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Steven Santini", "p_id": 8477463, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Dante Fabbro", "p_id": 8479371, "pos": "D", "team": "Nashville Predators", "points": 0}
+{"name": "Nick Bonino", "p_id": 8474009, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Kyle Turris", "p_id": 8474068, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Matt Duchene", "p_id": 8475168, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Craig Smith", "p_id": 8475225, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Calle Jarnkrok", "p_id": 8475714, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Austin Watson", "p_id": 8475766, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Ryan Johansen", "p_id": 8475793, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Mikael Granlund", "p_id": 8475798, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Rocco Grimaldi", "p_id": 8476428, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Miikka Salomaki", "p_id": 8476447, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Filip Forsberg", "p_id": 8476887, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Colton Sissons", "p_id": 8476925, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Daniel Carr", "p_id": 8477901, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Frederick Gaudreau", "p_id": 8477919, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Viktor Arvidsson", "p_id": 8478042, "pos": "F", "team": "Nashville Predators", "points": 0}
+{"name": "Pekka Rinne", "p_id": 8471469, "pos": "G", "team": "Nashville Predators", "points": 0}
+{"name": "Juuse Saros", "p_id": 8477424, "pos": "G", "team": "Nashville Predators", "points": 0}
+{"name": "Andy Greene", "p_id": 8472382, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "P.K. Subban", "p_id": 8474056, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Sami Vatanen", "p_id": 8475222, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Matt Tennyson", "p_id": 8476807, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Damon Severson", "p_id": 8476923, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Connor Carrick", "p_id": 8476941, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Will Butcher", "p_id": 8477355, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Mirco Mueller", "p_id": 8477509, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Ty Smith", "p_id": 8480883, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Jeremy Groleau", "p_id": 8481208, "pos": "D", "team": "New Jersey Devils", "points": 0}
+{"name": "Travis Zajac", "p_id": 8471233, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Wayne Simmonds", "p_id": 8474190, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Kyle Palmieri", "p_id": 8475151, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Taylor Hall", "p_id": 8475791, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Blake Coleman", "p_id": 8476399, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Nikita Gusev", "p_id": 8477038, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "John Hayden", "p_id": 8477401, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Miles Wood", "p_id": 8477425, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Pavel Zacha", "p_id": 8478401, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Kevin Rooney", "p_id": 8479291, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Jesper Bratt", "p_id": 8479407, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Nico Hischier", "p_id": 8480002, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Jesper Boqvist", "p_id": 8480003, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Jack Hughes", "p_id": 8481559, "pos": "F", "team": "New Jersey Devils", "points": 0}
+{"name": "Cory Schneider", "p_id": 8471239, "pos": "G", "team": "New Jersey Devils", "points": 0}
+{"name": "Mackenzie Blackwood", "p_id": 8478406, "pos": "G", "team": "New Jersey Devils", "points": 0}
+{"name": "Mitchell Vande Sompel", "p_id": 8478481, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Bode Wilde", "p_id": 8480826, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Johnny Boychuk", "p_id": 8470187, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Thomas Hickey", "p_id": 8474066, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Nick Leddy", "p_id": 8475181, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Scott Mayfield", "p_id": 8476429, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Adam Pelech", "p_id": 8476917, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Ryan Pulock", "p_id": 8477506, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Devon Toews", "p_id": 8478038, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Noah Dobson", "p_id": 8480865, "pos": "D", "team": "New York Islanders", "points": 0}
+{"name": "Robert Carpenter", "p_id": 8481469, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Leo Komarov", "p_id": 8473463, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Cal Clutterbuck", "p_id": 8473504, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Derick Brassard", "p_id": 8473544, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Josh Bailey", "p_id": 8474573, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Jordan Eberle", "p_id": 8474586, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Matt Martin", "p_id": 8474709, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Casey Cizikas", "p_id": 8475231, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Anders Lee", "p_id": 8475314, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Brock Nelson", "p_id": 8475754, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Tom Kuhnhackl", "p_id": 8475832, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Ross Johnston", "p_id": 8477527, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Michael Dal Colle", "p_id": 8477936, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Joshua Ho-Sang", "p_id": 8477959, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Mathew Barzal", "p_id": 8478445, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Anthony Beauvillier", "p_id": 8478463, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Tanner Fritz", "p_id": 8479206, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Simon Holmstrom", "p_id": 8481601, "pos": "F", "team": "New York Islanders", "points": 0}
+{"name": "Thomas Greiss", "p_id": 8471306, "pos": "G", "team": "New York Islanders", "points": 0}
+{"name": "Semyon Varlamov", "p_id": 8473575, "pos": "G", "team": "New York Islanders", "points": 0}
+{"name": "Marc Staal", "p_id": 8471686, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Brendan Smith", "p_id": 8474090, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Brady Skjei", "p_id": 8476869, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Jacob Trouba", "p_id": 8476885, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Tony DeAngelo", "p_id": 8477950, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Adam Fox", "p_id": 8479323, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Ryan Lindgren", "p_id": 8479324, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Libor Hajek", "p_id": 8479333, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Yegor Rykov", "p_id": 8479531, "pos": "D", "team": "New York Rangers", "points": 0}
+{"name": "Chris Kreider", "p_id": 8475184, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Greg McKegg", "p_id": 8475735, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Jesper Fast", "p_id": 8475855, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Ryan Strome", "p_id": 8476458, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Mika Zibanejad", "p_id": 8476459, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Vladislav Namestnikov", "p_id": 8476480, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Boo Nieves", "p_id": 8476922, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Pavel Buchnevich", "p_id": 8477402, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Brendan Lemieux", "p_id": 8477962, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Artemi Panarin", "p_id": 8478550, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Brett Howden", "p_id": 8479353, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Vinni Lettieri", "p_id": 8479968, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Lias Andersson", "p_id": 8480072, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Filip Chytil", "p_id": 8480078, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Vitali Kravtsov", "p_id": 8480833, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Kaapo Kakko", "p_id": 8481554, "pos": "F", "team": "New York Rangers", "points": 0}
+{"name": "Henrik Lundqvist", "p_id": 8468685, "pos": "G", "team": "New York Rangers", "points": 0}
+{"name": "Igor Shesterkin", "p_id": 8478048, "pos": "G", "team": "New York Rangers", "points": 0}
+{"name": "Alexandar Georgiev", "p_id": 8480382, "pos": "G", "team": "New York Rangers", "points": 0}
+{"name": "Ron Hainsey", "p_id": 8468493, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Cody Goloubef", "p_id": 8474597, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Mark Borowiecki", "p_id": 8474697, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Dylan DeMelo", "p_id": 8476331, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Thomas Chabot", "p_id": 8478469, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Christian Jaros", "p_id": 8478868, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Nikita Zaitsev", "p_id": 8479458, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Erik Brannstrom", "p_id": 8480073, "pos": "D", "team": "Ottawa Senators", "points": 0}
+{"name": "Rudolfs Balcers", "p_id": 8478870, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Bobby Ryan", "p_id": 8471676, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Artem Anisimov", "p_id": 8473573, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Mikkel Boedker", "p_id": 8474571, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Tyler Ennis", "p_id": 8474589, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Jean-Gabriel Pageau", "p_id": 8476419, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Chris Tierney", "p_id": 8476919, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Connor Brown", "p_id": 8477015, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Scott Sabourin", "p_id": 8477149, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Anthony Duclair", "p_id": 8477407, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Colin White", "p_id": 8478400, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Filip Chlapik", "p_id": 8478488, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Logan Brown", "p_id": 8479366, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Vitaly Abramov", "p_id": 8479411, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Drake Batherson", "p_id": 8480208, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Brady Tkachuk", "p_id": 8480801, "pos": "F", "team": "Ottawa Senators", "points": 0}
+{"name": "Craig Anderson", "p_id": 8467950, "pos": "G", "team": "Ottawa Senators", "points": 0}
+{"name": "Anders Nilsson", "p_id": 8475195, "pos": "G", "team": "Ottawa Senators", "points": 0}
+{"name": "Matt Niskanen", "p_id": 8471702, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Justin Braun", "p_id": 8474027, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Andy Welinski", "p_id": 8476407, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Shayne Gostisbehere", "p_id": 8476906, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Robert Hagg", "p_id": 8477462, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Samuel Morin", "p_id": 8477502, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Travis Sanheim", "p_id": 8477948, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Ivan Provorov", "p_id": 8478500, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Philippe Myers", "p_id": 8479026, "pos": "D", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Claude Giroux", "p_id": 8473512, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "James van Riemsdyk", "p_id": 8474037, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Jakub Voracek", "p_id": 8474161, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Kevin Hayes", "p_id": 8475763, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Sean Couturier", "p_id": 8476461, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Scott Laughton", "p_id": 8476872, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Michael Raffl", "p_id": 8477290, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Oskar Lindblom", "p_id": 8478067, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Travis Konecny", "p_id": 8478439, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Carsen Twarynski", "p_id": 8479358, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Connor Bunnaman", "p_id": 8479382, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Joel Farabee", "p_id": 8480797, "pos": "F", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Brian Elliott", "p_id": 8470880, "pos": "G", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Carter Hart", "p_id": 8479394, "pos": "G", "team": "Philadelphia Flyers", "points": 0}
+{"name": "Jack Johnson", "p_id": 8471677, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Kris Letang", "p_id": 8471724, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Justin Schultz", "p_id": 8474602, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Brian Dumoulin", "p_id": 8475208, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Erik Gudbranson", "p_id": 8475790, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Zach Trotman", "p_id": 8475902, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Chad Ruhwedel", "p_id": 8477244, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Marcus Pettersson", "p_id": 8477969, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Juuso Riikola", "p_id": 8480945, "pos": "D", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Evgeni Malkin", "p_id": 8471215, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Sidney Crosby", "p_id": 8471675, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Patric Hornqvist", "p_id": 8471887, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Nick Bjugstad", "p_id": 8475760, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Bryan Rust", "p_id": 8475810, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Alex Galchenyuk", "p_id": 8476851, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Teddy Blueger", "p_id": 8476927, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Jake Guentzel", "p_id": 8477404, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Jared McCann", "p_id": 8477955, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Dominik Simon", "p_id": 8478866, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Brandon Tanev", "p_id": 8479293, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Zach Aston-Reese", "p_id": 8479944, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Dominik Kahun", "p_id": 8480946, "pos": "F", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Matt Murray", "p_id": 8476899, "pos": "G", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Tristan Jarry", "p_id": 8477465, "pos": "G", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Casey DeSmith", "p_id": 8479193, "pos": "G", "team": "Pittsburgh Penguins", "points": 0}
+{"name": "Brent Burns", "p_id": 8470613, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Marc-Edouard Vlasic", "p_id": 8471709, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Erik Karlsson", "p_id": 8474578, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Dalton Prout", "p_id": 8474774, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Brenden Dillon", "p_id": 8475455, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Tim Heed", "p_id": 8475841, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Mario Ferraro", "p_id": 8479983, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Radim Simek", "p_id": 8480160, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Artemi Kniazev", "p_id": 8481552, "pos": "D", "team": "San Jose Sharks", "points": 0}
+{"name": "Joe Thornton", "p_id": 8466138, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Logan Couture", "p_id": 8474053, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Evander Kane", "p_id": 8475169, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Marcus Sorensen", "p_id": 8475834, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Barclay Goodrow", "p_id": 8476624, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Tomas Hertl", "p_id": 8476881, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Jonny Brodzinski", "p_id": 8477380, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Melker Karlsson", "p_id": 8477922, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Kevin Labanc", "p_id": 8478099, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Timo Meier", "p_id": 8478414, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Manuel Wiederer", "p_id": 8479538, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Dylan Gambrell", "p_id": 8479580, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Lukas Radil", "p_id": 8480780, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Danil Yurtaykin", "p_id": 8481515, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Lean Bergmann", "p_id": 8481640, "pos": "F", "team": "San Jose Sharks", "points": 0}
+{"name": "Martin Jones", "p_id": 8474889, "pos": "G", "team": "San Jose Sharks", "points": 0}
+{"name": "Aaron Dell", "p_id": 8477180, "pos": "G", "team": "San Jose Sharks", "points": 0}
+{"name": "Jay Bouwmeester", "p_id": 8470151, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Carl Gunnarsson", "p_id": 8474125, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Robert Bortuzzo", "p_id": 8474145, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Alex Pietrangelo", "p_id": 8474565, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Justin Faulk", "p_id": 8475753, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Colton Parayko", "p_id": 8476892, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Vince Dunn", "p_id": 8478407, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Niko Mikkola", "p_id": 8478859, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Andreas Borgman", "p_id": 8480158, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Mitch Reinke", "p_id": 8480761, "pos": "D", "team": "St. Louis Blues", "points": 0}
+{"name": "Alexander Steen", "p_id": 8470257, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "David Perron", "p_id": 8474102, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Tyler Bozak", "p_id": 8475098, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Ryan O'Reilly", "p_id": 8475158, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Brayden Schenn", "p_id": 8475170, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Jordan Nolan", "p_id": 8475325, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Vladimir Tarasenko", "p_id": 8475765, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Jaden Schwartz", "p_id": 8475768, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Oskar Sundqvist", "p_id": 8476897, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Mackenzie MacEachern", "p_id": 8476907, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Zach Sanford", "p_id": 8477482, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Nathan Walker", "p_id": 8477573, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Robby Fabbri", "p_id": 8477952, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Ivan Barbashev", "p_id": 8477964, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Austin Poganski", "p_id": 8478040, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Sammy Blais", "p_id": 8478104, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Tanner Kaspick", "p_id": 8479349, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Jordan Kyrou", "p_id": 8479385, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Klim Kostin", "p_id": 8480011, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Robert Thomas", "p_id": 8480023, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Alexei Toropchenko", "p_id": 8480281, "pos": "F", "team": "St. Louis Blues", "points": 0}
+{"name": "Jake Allen", "p_id": 8474596, "pos": "G", "team": "St. Louis Blues", "points": 0}
+{"name": "Jordan Binnington", "p_id": 8476412, "pos": "G", "team": "St. Louis Blues", "points": 0}
+{"name": "Ville Husso", "p_id": 8478024, "pos": "G", "team": "St. Louis Blues", "points": 0}
+{"name": "Braydon Coburn", "p_id": 8470601, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Kevin Shattenkirk", "p_id": 8474031, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Ryan McDonagh", "p_id": 8474151, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Luke Schenn", "p_id": 8474568, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Luke Witkowski", "p_id": 8474722, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Victor Hedman", "p_id": 8475167, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Daniel Walcott", "p_id": 8478069, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Erik Cernak", "p_id": 8478416, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Mikhail Sergachev", "p_id": 8479410, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Jan Rutta", "p_id": 8480172, "pos": "D", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Alex Killorn", "p_id": 8473986, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Pat Maroon", "p_id": 8474034, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Steven Stamkos", "p_id": 8474564, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Tyler Johnson", "p_id": 8474870, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Ondrej Palat", "p_id": 8476292, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Nikita Kucherov", "p_id": 8476453, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Yanni Gourde", "p_id": 8476826, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Gemel Smith", "p_id": 8476966, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Cedric Paquette", "p_id": 8476975, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Carter Verhaeghe", "p_id": 8477409, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Brayden Point", "p_id": 8478010, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Danick Martel", "p_id": 8478365, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Mathieu Joseph", "p_id": 8478472, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Anthony Cirelli", "p_id": 8478519, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Alexander Volkov", "p_id": 8480186, "pos": "F", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Curtis McElhinney", "p_id": 8470147, "pos": "G", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Andrei Vasilevskiy", "p_id": 8476883, "pos": "G", "team": "Tampa Bay Lightning", "points": 0}
+{"name": "Jake Muzzin", "p_id": 8474162, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Tyson Barrie", "p_id": 8475197, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Martin Marincin", "p_id": 8475716, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Justin Holl", "p_id": 8475718, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Kevin Gravel", "p_id": 8475857, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Morgan Rielly", "p_id": 8476853, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Jordan Schmaltz", "p_id": 8476877, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Cody Ceci", "p_id": 8476879, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Ben Harpur", "p_id": 8477433, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Travis Dermott", "p_id": 8478408, "pos": "D", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Jason Spezza", "p_id": 8469455, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "John Tavares", "p_id": 8475166, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Garrett Wilson", "p_id": 8475253, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Kenny Agostino", "p_id": 8475844, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Nicholas Shore", "p_id": 8476406, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Pontus Aberg", "p_id": 8476857, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Alexander Kerfoot", "p_id": 8477021, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Andreas Johnsson", "p_id": 8477341, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Nic Petan", "p_id": 8477464, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Frederik Gauthier", "p_id": 8477512, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Tyler Gaudet", "p_id": 8477715, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "William Nylander", "p_id": 8477939, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Kasperi Kapanen", "p_id": 8477953, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Mitchell Marner", "p_id": 8478483, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Kalle Kossila", "p_id": 8479290, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Auston Matthews", "p_id": 8479318, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Egor Korshkov", "p_id": 8479510, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Trevor Moore", "p_id": 8479675, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Ilya Mikheyev", "p_id": 8481624, "pos": "F", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Michael Hutchinson", "p_id": 8474636, "pos": "G", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Frederik Andersen", "p_id": 8475883, "pos": "G", "team": "Toronto Maple Leafs", "points": 0}
+{"name": "Ashton Sautner", "p_id": 8477085, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Alexander Edler", "p_id": 8471303, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Alex Biega", "p_id": 8473415, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Tyler Myers", "p_id": 8474574, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Jordie Benn", "p_id": 8474818, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Christopher Tanev", "p_id": 8475690, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Troy Stecher", "p_id": 8479442, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Oscar Fantenberg", "p_id": 8480147, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Quinn Hughes", "p_id": 8480800, "pos": "D", "team": "Vancouver Canucks", "points": 0}
+{"name": "Antoine Roussel", "p_id": 8474849, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Zack MacEwen", "p_id": 8479772, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Loui Eriksson", "p_id": 8470626, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Brandon Sutter", "p_id": 8474091, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Jay Beagle", "p_id": 8474291, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Micheal Ferland", "p_id": 8475907, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Josh Leivo", "p_id": 8476410, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Sven Baertschi", "p_id": 8476466, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "J.T. Miller", "p_id": 8476468, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Tanner Pearson", "p_id": 8476871, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Tim Schaller", "p_id": 8477213, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Tyler Motte", "p_id": 8477353, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Bo Horvat", "p_id": 8477500, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Jake Virtanen", "p_id": 8477937, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Nikolay Goldobin", "p_id": 8477958, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Brock Boeser", "p_id": 8478444, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Adam Gaudette", "p_id": 8478874, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Elias Pettersson", "p_id": 8480012, "pos": "F", "team": "Vancouver Canucks", "points": 0}
+{"name": "Jacob Markstrom", "p_id": 8474593, "pos": "G", "team": "Vancouver Canucks", "points": 0}
+{"name": "Thatcher Demko", "p_id": 8477967, "pos": "G", "team": "Vancouver Canucks", "points": 0}
+{"name": "Deryk Engelland", "p_id": 8468674, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Nick Holden", "p_id": 8474207, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Brayden McNabb", "p_id": 8475188, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Jon Merrill", "p_id": 8475750, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Jake Bischoff", "p_id": 8476987, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Nate Schmidt", "p_id": 8477220, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Shea Theodore", "p_id": 8477447, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Nicolas Hague", "p_id": 8479980, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Zach Whitecloud", "p_id": 8480727, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Jimmy Schuldt", "p_id": 8481486, "pos": "D", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Jake Leschyshyn", "p_id": 8479991, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Paul Stastny", "p_id": 8471669, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Ryan Reaves", "p_id": 8471817, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Max Pacioretty", "p_id": 8474157, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Reilly Smith", "p_id": 8475191, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Brandon Pirri", "p_id": 8475204, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Cody Eakin", "p_id": 8475236, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Mark Stone", "p_id": 8475913, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "William Karlsson", "p_id": 8476448, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Jonathan Marchessault", "p_id": 8476539, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Valentin Zykov", "p_id": 8477458, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "William Carrier", "p_id": 8477478, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Tomas Nosek", "p_id": 8477931, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Alex Tuch", "p_id": 8477949, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Keegan Kolesar", "p_id": 8478434, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Nicolas Roy", "p_id": 8478462, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Cody Glass", "p_id": 8479996, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Marcus Kallionkieli", "p_id": 8481573, "pos": "F", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Marc-Andre Fleury", "p_id": 8470594, "pos": "G", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Malcolm Subban", "p_id": 8476876, "pos": "G", "team": "Vegas Golden Knights", "points": 0}
+{"name": "Dylan Ferguson", "p_id": 8480263, "pos": "G", "team": "Vegas Golden Knights", "points": 0}
+{"name": "John Carlson", "p_id": 8474590, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Dmitry Orlov", "p_id": 8475200, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Nick Jensen", "p_id": 8475324, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Radko Gudas", "p_id": 8475462, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Christian Djoos", "p_id": 8477043, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Jonas Siegenthaler", "p_id": 8478399, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Michal Kempny", "p_id": 8479482, "pos": "D", "team": "Washington Capitals", "points": 0}
+{"name": "Alex Ovechkin", "p_id": 8471214, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "T.J. Oshie", "p_id": 8471698, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Nicklas Backstrom", "p_id": 8473563, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Carl Hagelin", "p_id": 8474176, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Lars Eller", "p_id": 8474189, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Richard Panik", "p_id": 8475209, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Nic Dowd", "p_id": 8475343, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Evgeny Kuznetsov", "p_id": 8475744, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Travis Boyd", "p_id": 8476329, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Tom Wilson", "p_id": 8476880, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Brendan Leipsic", "p_id": 8476894, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Chandler Stephenson", "p_id": 8476905, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Garnet Hathaway", "p_id": 8477903, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Jakub Vrana", "p_id": 8477944, "pos": "F", "team": "Washington Capitals", "points": 0}
+{"name": "Braden Holtby", "p_id": 8474651, "pos": "G", "team": "Washington Capitals", "points": 0}
+{"name": "Pheonix Copley", "p_id": 8477831, "pos": "G", "team": "Washington Capitals", "points": 0}
+{"name": "Dustin Byfuglien", "p_id": 8470834, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Dmitry Kulikov", "p_id": 8475179, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Anthony Bitetto", "p_id": 8475868, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Nathan Beaulieu", "p_id": 8476470, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Tucker Poolman", "p_id": 8477359, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Josh Morrissey", "p_id": 8477504, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Sami Niku", "p_id": 8478915, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Neal Pionk", "p_id": 8480145, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Ville Heinola", "p_id": 8481572, "pos": "D", "team": "Winnipeg Jets", "points": 0}
+{"name": "Kyle Connor", "p_id": 8478398, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Patrik Laine", "p_id": 8479339, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Kristian Vesalainen", "p_id": 8480005, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Blake Wheeler", "p_id": 8471218, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Bryan Little", "p_id": 8473412, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Mathieu Perreault", "p_id": 8473618, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Mark Letestu", "p_id": 8473914, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Gabriel Bourque", "p_id": 8475268, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Adam Lowry", "p_id": 8476392, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Mark Scheifele", "p_id": 8476460, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Andrew Copp", "p_id": 8477429, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Nikolaj Ehlers", "p_id": 8477940, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "CJ Suess", "p_id": 8478058, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Jack Roslovic", "p_id": 8478458, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Mason Appleton", "p_id": 8478891, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "David Gustafsson", "p_id": 8481019, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Joona Luoto", "p_id": 8481649, "pos": "F", "team": "Winnipeg Jets", "points": 0}
+{"name": "Laurent Brossoit", "p_id": 8476316, "pos": "G", "team": "Winnipeg Jets", "points": 0}
+{"name": "Connor Hellebuyck", "p_id": 8476945, "pos": "G", "team": "Winnipeg Jets", "points": 0}
+{"name": "Eric Comrie", "p_id": 8477480, "pos": "G", "team": "Winnipeg Jets", "points": 0}
