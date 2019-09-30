@@ -16,3 +16,8 @@ npm install
 # Start Vue DevServer: http://localhost:8080
 npm run serve
 ```
+## Database Setup
+Create a .env file in the root directory and add your mongoDB connection string.
+```
+DATABASE_CONNECTION_STRING = 'your_connection_string'
+```
