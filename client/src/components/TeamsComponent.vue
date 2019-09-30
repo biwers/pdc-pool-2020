@@ -2,6 +2,13 @@
   <div class="container">
     <div class="create-team">
       <!-- <form id="create-team"> -->
+        <p v-if="errors.length">
+          <b>Please correct the following error(s):</b>
+            <ul>
+              <li v-for="(error, index) in errors"
+              v-bind:key="index">{{ error }}</li>
+            </ul>
+        </p>
         <h1>Create Your Team!</h1>
         <label for="name-field">Name: </label>
         <input id="name-field" type="text" name="Name" v-model="name">
@@ -113,7 +120,6 @@
       <!-- </form> -->
     </div>
     <h1>Teams</h1>
-    <p class="error" v-if="error">{{ error }}</p>
     <div>
       <div 
         v-for="(team, index) in teams"
@@ -194,7 +200,7 @@ export default {
     return {
       teams: [],
       players: [],
-      error: '',
+      errors: [],
       name: '',
       owner: '',
       f1: '',
@@ -219,6 +225,35 @@ export default {
   },
   methods: {
     async createTeam() {
+      this.errors = [];
+      if(!this.name){
+        this.errors.push('Please add a team name');
+      }
+      if(!this.owner){
+        this.errors.push('Please add a team owner');
+      }
+      if(!this.f1 || !this.f2 || !this.f3 || !this.f4 || !this.f5){
+        this.errors.push('Please select 5 forwards');
+      } else if(this.f1 == this.f2 || this.f1 == this.f3 || this.f1 == this.f4 
+        || this.f1 == this.f5 || this.f2 == this.f3 || this.f2 == this.f4
+        || this.f2 == this.f5 || this.f3 == this.f4 || this.f3 == this.f4
+        || this.f4 == this.f5){
+        this.errors.push('Cannot have duplicate forwards');
+      }
+      if(!this.d1 || !this.d2 || !this.d3){
+        this.errors.push('Please select 3 defensemen');
+      } else if(this.d1 == this.d2 || this.d1 == this.d3 || this.d2 == this.d3){
+        this.errors.push('Cannot have duplicate defensemen');
+      }
+      if(!this.g1 || !this.g2){
+        this.errors.push('Please select 2 goalies');
+      } else if(this.g1 == this.g2){
+        this.errors.push('Cannot have duplicate goalies');
+      }
+
+      if(this.errors.length){
+        return;
+      }
       await TeamsService.insertTeam(
         {
           name:this.name,
