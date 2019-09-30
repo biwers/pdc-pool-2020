@@ -1,3 +1,4 @@
+# Script to get all current NHL player data
 import requests
 import json
 import csv
