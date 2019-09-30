@@ -7,7 +7,7 @@
 npm install
 
 # Start Express Server: http://localhost:5000
-npm start
+npm run dev
 
 # Install Frontend Dependencies
 cd client
