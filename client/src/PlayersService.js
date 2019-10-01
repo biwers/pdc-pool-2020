@@ -19,6 +19,19 @@ class PlayersService {
             }
         });
     }
+
+    static getPlayersByType(pos) {
+        return new Promise(async (resolve, reject) => {
+            try {
+                const res = await axios.get(url);
+                resolve(
+                    res.data.filter(player => player.pos == pos)
+                );
+            } catch(err) {
+                reject(err);
+            }
+        });
+    }
 }
 
 export default PlayersService;

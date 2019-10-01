@@ -18,106 +18,61 @@
         <br>
         <label for="forwards">Pick your forwards: </label>
         <select id="forwards" name="f1" form="f1" v-model="f1">
-          <option value='{"name":"Bryan Little", "id":"8473412"}'>Bryan Little</option>
-          <option value='{"name":"Brad Marchand", "id":"8473419"}'>Brad Marchand</option>
-          <option value='{"name":"Jake Guentzel", "id":"8477404"}'>Jake Guentzel</option>
-          <option value='{"name":"Steven Stamkos", "id":"8474564"}'>Steven Stamkos</option>
-          <option value='{"name":"Alex Ovechkin", "id":"8471214"}'>Alex Ovechkin</option>
-          <option value='{"name":"Brayden Point", "id":"8478010"}'>Brayden Point</option>
-          <option value='{"name":"David Pastrnak", "id":"8477956"}'>David Pastrnak</option>
-          <option value='{"name":"Kyle Connor", "id":"8478398"}'>Kyle Connor</option>
-          <option value='{"name":"Matthew Tkachuk", "id":"8479314"}'>Matthew Tkachuk</option>
-          <option value='{"name":"Teuvo Teravainen", "id":"8476882"}'>Teuvo Teravainen</option>          
+          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
         </select>
         <select name="f2" form="f2" v-model="f2">
-          <option value='{"name":"Bryan Little", "id":"8473412"}'>Bryan Little</option>
-          <option value='{"name":"Brad Marchand", "id":"8473419"}'>Brad Marchand</option>
-          <option value='{"name":"Jake Guentzel", "id":"8477404"}'>Jake Guentzel</option>
-          <option value='{"name":"Steven Stamkos", "id":"8474564"}'>Steven Stamkos</option>
-          <option value='{"name":"Alex Ovechkin", "id":"8471214"}'>Alex Ovechkin</option>
-          <option value='{"name":"Brayden Point", "id":"8478010"}'>Brayden Point</option>
-          <option value='{"name":"David Pastrnak", "id":"8477956"}'>David Pastrnak</option>
-          <option value='{"name":"Kyle Connor", "id":"8478398"}'>Kyle Connor</option>
-          <option value='{"name":"Matthew Tkachuk", "id":"8479314"}'>Matthew Tkachuk</option>
-          <option value='{"name":"Teuvo Teravainen", "id":"8476882"}'>Teuvo Teravainen</option> 
-        </select>
+          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
+          </select>
         <select name="f3" form="f3" v-model="f3">
-          <option value='{"name":"Bryan Little", "id":"8473412"}'>Bryan Little</option>
-          <option value='{"name":"Brad Marchand", "id":"8473419"}'>Brad Marchand</option>
-          <option value='{"name":"Jake Guentzel", "id":"8477404"}'>Jake Guentzel</option>
-          <option value='{"name":"Steven Stamkos", "id":"8474564"}'>Steven Stamkos</option>
-          <option value='{"name":"Alex Ovechkin", "id":"8471214"}'>Alex Ovechkin</option>
-          <option value='{"name":"Brayden Point", "id":"8478010"}'>Brayden Point</option>
-          <option value='{"name":"David Pastrnak", "id":"8477956"}'>David Pastrnak</option>
-          <option value='{"name":"Kyle Connor", "id":"8478398"}'>Kyle Connor</option>
-          <option value='{"name":"Matthew Tkachuk", "id":"8479314"}'>Matthew Tkachuk</option>
-          <option value='{"name":"Teuvo Teravainen", "id":"8476882"}'>Teuvo Teravainen</option> 
-        </select>
+          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
+          </select>
         <select name="f4" form="f4" v-model="f4">
-          <option value='{"name":"Bryan Little", "id":"8473412"}'>Bryan Little</option>
-          <option value='{"name":"Brad Marchand", "id":"8473419"}'>Brad Marchand</option>
-          <option value='{"name":"Jake Guentzel", "id":"8477404"}'>Jake Guentzel</option>
-          <option value='{"name":"Steven Stamkos", "id":"8474564"}'>Steven Stamkos</option>
-          <option value='{"name":"Alex Ovechkin", "id":"8471214"}'>Alex Ovechkin</option>
-          <option value='{"name":"Brayden Point", "id":"8478010"}'>Brayden Point</option>
-          <option value='{"name":"David Pastrnak", "id":"8477956"}'>David Pastrnak</option>
-          <option value='{"name":"Kyle Connor", "id":"8478398"}'>Kyle Connor</option>
-          <option value='{"name":"Matthew Tkachuk", "id":"8479314"}'>Matthew Tkachuk</option>
-          <option value='{"name":"Teuvo Teravainen", "id":"8476882"}'>Teuvo Teravainen</option> 
-        </select>
+          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
+          </select>
         <select name="f5" form="f5" v-model="f5">
-          <option value='{"name":"Bryan Little", "id":"8473412"}'>Bryan Little</option>
-          <option value='{"name":"Brad Marchand", "id":"8473419"}'>Brad Marchand</option>
-          <option value='{"name":"Jake Guentzel", "id":"8477404"}'>Jake Guentzel</option>
-          <option value='{"name":"Steven Stamkos", "id":"8474564"}'>Steven Stamkos</option>
-          <option value='{"name":"Alex Ovechkin", "id":"8471214"}'>Alex Ovechkin</option>
-          <option value='{"name":"Brayden Point", "id":"8478010"}'>Brayden Point</option>
-          <option value='{"name":"David Pastrnak", "id":"8477956"}'>David Pastrnak</option>
-          <option value='{"name":"Kyle Connor", "id":"8478398"}'>Kyle Connor</option>
-          <option value='{"name":"Matthew Tkachuk", "id":"8479314"}'>Matthew Tkachuk</option>
-          <option value='{"name":"Teuvo Teravainen", "id":"8476882"}'>Teuvo Teravainen</option> 
-        </select>
+          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
+          </select>
         <br>
         <label for="defensemen">Pick your defensemen: </label>
         <select id="defensemen" name="d1" form="d1" v-model="d1">
-          <option value='{"name":"Ryan Ellis", "id":"8475176"}'>Ryan Ellis</option>
-          <option value='{"name":"P.K. Subban", "id":"8474056"}'>P.K. Subban</option>
-          <option value='{"name":"Dustin Byfuglien", "id":"8470834"}'>Dustin Byfuglien</option>
-          <option value='{"name":"Shea Theodore", "id":"8477447"}'>Shea Theodore</option>
-          <option value='{"name":"Charlie McAvoy", "id":"8479325"}'>Charlie McAvoy</option>
-          <option value='{"name":"Dante Fabbro", "id":"8479371"}'>Dante Fabbro</option>
+          <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
         </select>
         <select name="d2" form="d2" v-model="d2">
-          <option value='{"name":"Ryan Ellis", "id":"8475176"}'>Ryan Ellis</option>
-          <option value='{"name":"P.K. Subban", "id":"8474056"}'>P.K. Subban</option>
-          <option value='{"name":"Dustin Byfuglien", "id":"8470834"}'>Dustin Byfuglien</option>
-          <option value='{"name":"Shea Theodore", "id":"8477447"}'>Shea Theodore</option>
-          <option value='{"name":"Charlie McAvoy", "id":"8479325"}'>Charlie McAvoy</option>
-          <option value='{"name":"Dante Fabbro", "id":"8479371"}'>Dante Fabbro</option>
+          <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
         </select>
         <select name="d3" form="d3" v-model="d3">
-          <option value='{"name":"Ryan Ellis", "id":"8475176"}'>Ryan Ellis</option>
-          <option value='{"name":"P.K. Subban", "id":"8474056"}'>P.K. Subban</option>
-          <option value='{"name":"Dustin Byfuglien", "id":"8470834"}'>Dustin Byfuglien</option>
-          <option value='{"name":"Shea Theodore", "id":"8477447"}'>Shea Theodore</option>
-          <option value='{"name":"Charlie McAvoy", "id":"8479325"}'>Charlie McAvoy</option>
-          <option value='{"name":"Dante Fabbro", "id":"8479371"}'>Dante Fabbro</option>
+          <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>
         </select>
         <br>
         <label for="goalies">Pick your goalies: </label>
         <select id="goalies" name="g1" form="g1" v-model="g1">
-          <option value='{"name":"Andrei Vasilevskiy", "id":"8476883"}'>Andrei Vasilevskiy</option>
-          <option value='{"name":"Braden Holtby", "id":"8474651"}'>Braden Holtby</option>
-          <option value='{"name":"Connor Hellebuyck", "id":"8476945"}'>Connor Hellebuyck</option>        
+          <option v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>        
         </select>
         <select name="g2" form="g2" v-model="g2">
-          <option value='{"name":"Andrei Vasilevskiy", "id":"8476883"}'>Andrei Vasilevskiy</option>
-          <option value='{"name":"Braden Holtby", "id":"8474651"}'>Braden Holtby</option>
-          <option value='{"name":"Connor Hellebuyck", "id":"8476945"}'>Connor Hellebuyck</option>        
+          <option v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
+            {{player.name}}
+          </option>        
         </select>
         <br>
         <button v-on:click="createTeam">Submit!</button>
-      <!-- </form> -->
     </div>
     <h1>Teams</h1>
     <div>
@@ -199,7 +154,9 @@ export default {
   data() {
     return {
       teams: [],
-      players: [],
+      forwards: [],
+      defensemen: [],
+      goalies: [],
       errors: [],
       name: '',
       owner: '',
@@ -218,7 +175,9 @@ export default {
   async created() {
     try {
       this.teams = await TeamsService.getTeams();
-      this.players = await PlayersService.getPlayers();
+      this.forwards= await PlayersService.getPlayersByType("F");
+      this.defensemen= await PlayersService.getPlayersByType("D");
+      this.goalies= await PlayersService.getPlayersByType("G");
     } catch(error) {
       this.error = error.message;
     }
@@ -226,6 +185,9 @@ export default {
   methods: {
     async createTeam() {
       this.errors = [];
+
+      // Once a PV attribute is added from database add a check for team point value
+
       if(!this.name){
         this.errors.push('Please add a team name');
       }
@@ -234,23 +196,24 @@ export default {
       }
       if(!this.f1 || !this.f2 || !this.f3 || !this.f4 || !this.f5){
         this.errors.push('Please select 5 forwards');
-      } else if(this.f1 == this.f2 || this.f1 == this.f3 || this.f1 == this.f4 
-        || this.f1 == this.f5 || this.f2 == this.f3 || this.f2 == this.f4
-        || this.f2 == this.f5 || this.f3 == this.f4 || this.f3 == this.f4
-        || this.f4 == this.f5){
+      } else if(this.f1.id == this.f2.id || this.f1.id == this.f3.id
+        || this.f1.id == this.f4.id || this.f1.id == this.f5.id
+        || this.f2.id == this.f3.id || this.f2.id == this.f4.id
+        || this.f2.id == this.f5.id || this.f3.id == this.f4.id 
+        || this.f3.id == this.f5.id || this.f4.id == this.f5.id){
         this.errors.push('Cannot have duplicate forwards');
       }
       if(!this.d1 || !this.d2 || !this.d3){
         this.errors.push('Please select 3 defensemen');
-      } else if(this.d1 == this.d2 || this.d1 == this.d3 || this.d2 == this.d3){
+      } else if(this.d1.id == this.d2.id || this.d1.id == this.d3.id 
+      || this.d2.id == this.d3.id){
         this.errors.push('Cannot have duplicate defensemen');
       }
       if(!this.g1 || !this.g2){
         this.errors.push('Please select 2 goalies');
-      } else if(this.g1 == this.g2){
+      } else if(this.g1.id == this.g2.id){
         this.errors.push('Cannot have duplicate goalies');
       }
-
       if(this.errors.length){
         return;
       }

@@ -15,16 +15,16 @@ router.get('/', async (req, res) => {
 // Add Team
 router.post('/', async (req, res) => {
     const teams = await loadTeamsCollection();
-    const f1 = JSON.parse(req.body.team.team.forwards.f1);
-    const f2 = JSON.parse(req.body.team.team.forwards.f2);
-    const f3 = JSON.parse(req.body.team.team.forwards.f3);
-    const f4 = JSON.parse(req.body.team.team.forwards.f4);
-    const f5 = JSON.parse(req.body.team.team.forwards.f5);
-    const d1 = JSON.parse(req.body.team.team.defensemen.d1);
-    const d2 = JSON.parse(req.body.team.team.defensemen.d2);
-    const d3 = JSON.parse(req.body.team.team.defensemen.d3);
-    const g1 = JSON.parse(req.body.team.team.goalies.g1);
-    const g2 = JSON.parse(req.body.team.team.goalies.g2);
+    const f1 = req.body.team.team.forwards.f1;
+    const f2 = req.body.team.team.forwards.f2;
+    const f3 = req.body.team.team.forwards.f3;
+    const f4 = req.body.team.team.forwards.f4;
+    const f5 = req.body.team.team.forwards.f5;
+    const d1 = req.body.team.team.defensemen.d1;
+    const d2 = req.body.team.team.defensemen.d2;
+    const d3 = req.body.team.team.defensemen.d3;
+    const g1 = req.body.team.team.goalies.g1;
+    const g2 = req.body.team.team.goalies.g2;
     await teams.insertOne({
         name: req.body.team.name,
         owner: req.body.team.owner,
