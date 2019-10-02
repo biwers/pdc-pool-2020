@@ -72,6 +72,7 @@ async function updateTeams() {
         var newTeam = {
             name: team.name,
             owner: team.owner,
+            sid: team.sid,
             team: team.team,
             points: team.points
             };
