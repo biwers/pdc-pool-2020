@@ -9,8 +9,8 @@ const router = express.Router();
 
 // Get Players
 router.get('/', async (req, res) => {
-    const players = await loadPlayersCollection();
     // updatePlayers();
+    const players = await loadPlayersCollection();
     res.send(await players.find({}).toArray());
 });
 

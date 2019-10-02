@@ -16,6 +16,15 @@
         <label for="owner-field">Owner: </label>
         <input id="owner-field" type="text" name="Owner" v-model="owner">
         <br>
+        <input type="radio" name="gender" id="kid" value="kid" class="sr-only" v-model="sid">
+        <label for="kid">
+          <img src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
+        </label>
+        <input type="radio" name="gender" id="man" value="man" class="sr-only" v-model="sid">
+        <label for="man">
+          <img src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
+        </label>
+        <br>
         <label for="forwards">Pick your forwards: </label>
         <select id="forwards" name="f1" form="f1" v-model="f1">
           <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
@@ -82,6 +91,8 @@
         v-bind:index="index"
         v-bind:key="team._id">
         <h3>{{ `${team.name} | ${team.owner}`}}</h3>
+        <img v-if="team.sid == 'kid'" src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
+        <img v-if="team.sid == 'man'" src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
         
         <table width=50% align="center">
           <tr>
@@ -160,6 +171,7 @@ export default {
       errors: [],
       name: '',
       owner: '',
+      sid: '',
       f1: '',
       f2: '',
       f3: '',
@@ -214,6 +226,9 @@ export default {
       } else if(this.g1.id == this.g2.id){
         this.errors.push('Cannot have duplicate goalies');
       }
+      if(!this.sid){
+        this.errors.push('Please select a Sid');
+      }
       if(this.errors.length){
         return;
       }
@@ -221,6 +236,7 @@ export default {
         {
           name:this.name,
           owner:this.owner,
+          sid:this.sid,
           team: {
                 forwards:{
                   f1:this.f1,

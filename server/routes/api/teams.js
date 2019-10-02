@@ -7,8 +7,8 @@ const router = express.Router();
 
 // Get Teams
 router.get('/', async (req, res) => {
-    const teams = await loadTeamsCollection();
     // updateTeams();
+    const teams = await loadTeamsCollection();
     res.send(await teams.find({}).toArray());
 });
 
@@ -28,6 +28,7 @@ router.post('/', async (req, res) => {
     await teams.insertOne({
         name: req.body.team.name,
         owner: req.body.team.owner,
+        sid: req.body.team.sid,
         team: {
             "forwards":{
                 "f1":{"name" : f1.name, "id" : f1.id, "points": 0},
