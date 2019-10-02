@@ -8,7 +8,7 @@ const mongodb = require('mongodb');
 
 const router = express.Router();
 
-cron.schedule('0 * * * *', () => {
+cron.schedule('0,30 * * * *', () => {
     console.log("Updating players");
     updatePlayers();
 });
@@ -61,10 +61,12 @@ async function updatePlayers() {
             if(isNaN(points)){
                 points = 0;
             }
-            var newValues = { $set: {points: points} };
-            await playersdb.updateOne(query, newValues, (err, res) => {
-                if (err) throw err;
-            });
+            if(points != player.points){
+                var newValues = { $set: {points: points} };
+                await playersdb.updateOne(query, newValues, (err, res) => {
+                    if (err) throw err;
+                });
+            }
         }
     });
 }

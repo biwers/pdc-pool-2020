@@ -6,7 +6,7 @@ dotenv.config();
 
 const router = express.Router();
 
-cron.schedule('0 * * * *', () => {
+cron.schedule('15,45 * * * *', () => {
     console.log("Updating teams");
     updateTeams();
 });
