@@ -14,7 +14,8 @@
                 v-bind:index="index"
                 v-bind:key="team._id">
                     <td>{{index+1}}</td>
-                    <td>{{team.name}}</td>
+                    <td v-if="team.sid =='kid'"> <img src="../../public/images/sid-the-kid.jpg" alt="Sid the Kid" height=50>  {{team.name}}</td>
+                    <td v-if="team.sid =='man'"> <img src="../../public/images/sid-the-man.jpeg" alt="Sid the Man" height=50>  {{team.name}}</td>
                     <td>{{team.points}}</td>
                 </tr>
             </table>

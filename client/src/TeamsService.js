@@ -33,7 +33,7 @@ class TeamsService {
                 const data = res.data;
                 var standings = [];
                 data.forEach(team => {
-                    standings.push({name:team.name, points:team.points});
+                    standings.push({name:team.name, points:team.points, sid:team.sid});
                 });
                 standings = standings.sort((a,b) => {
                     return  b.points > a.points ? 1
