@@ -1,13 +1,18 @@
 const express = require('express');
 const mongodb = require('mongodb');
 const dotenv = require('dotenv');
+const cron = require('node-cron');
 dotenv.config();
 
 const router = express.Router();
 
+cron.schedule('0 * * * *', () => {
+    console.log("Updating teams");
+    updateTeams();
+});
+
 // Get Teams
 router.get('/', async (req, res) => {
-    // updateTeams();
     const teams = await loadTeamsCollection();
     res.send(await teams.find({}).toArray());
 });

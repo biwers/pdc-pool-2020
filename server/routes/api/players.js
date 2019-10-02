@@ -1,5 +1,6 @@
 const axios = require('axios');
 const dotenv = require('dotenv');
+const cron = require('node-cron');
 dotenv.config();
 
 const express = require('express');
@@ -7,9 +8,13 @@ const mongodb = require('mongodb');
 
 const router = express.Router();
 
+cron.schedule('0 * * * *', () => {
+    console.log("Updating players");
+    updatePlayers();
+});
+
 // Get Players
 router.get('/', async (req, res) => {
-    // updatePlayers();
     const players = await loadPlayersCollection();
     res.send(await players.find({}).toArray());
 });
