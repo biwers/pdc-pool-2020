@@ -1,0 +1,25 @@
+.player-picker {
+  &__list {
+    height: 10rem;
+    overflow: auto;
+    list-style-type: none;
+    padding: 0.5rem 0;
+    margin: 0;
+    display: block;
+    border: 1px solid @border;
+    border-top: 0;
+    &-item {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      background: transparent;
+      transition: background 0.2s ease-in-out;
+      &:hover,
+      &:focus {
+        background: @blue--light;
+      }
+      &--selected {
+        background: @yellow;
+      }
+    }
+  }
+}

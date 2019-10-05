@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header class="header">
-      <router-link class="logo" to="/"><img alt="Vue logo" src="./assets/logo.png" width="328" height="310" class="logo__img"></router-link>
+      <router-link class="logo" to="/"><img alt="Mo's Top Ho's logo" src="./assets/logo.png" class="logo__img"></router-link>
       <nav class="nav nav--main">
         <ul class="menu">
           <li class="menu__item"><router-link class="menu__link" to="/standings">Standings</router-link></li>

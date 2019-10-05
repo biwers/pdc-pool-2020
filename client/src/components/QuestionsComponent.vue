@@ -1,6 +1,6 @@
 <template>
   <div class="Questions">
-    <h2>Lay it on me!</h2>
+    <h1>Lay it on me!</h1>
     <form class="form" @submit="onSubmit">
         <div class="form__item">
             <label class="form__label" for="name">Name</label>

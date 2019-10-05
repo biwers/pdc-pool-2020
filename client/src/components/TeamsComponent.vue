@@ -33,64 +33,74 @@
               </label>
             </div>
           </div>
-          <div class="form__item">
+          <div class="form__item form__item--player-group">
             <label class="form__label" for="forwards">Pick your forwards</label>
-            <select id="forwards" name="f1" form="f1" v-model="f1">
-              <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
-            <select name="f2" form="f2" v-model="f2">
-              <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
-            <select name="f3" form="f3" v-model="f3">
-              <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
-            <select name="f4" form="f4" v-model="f4">
-              <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
-            <select name="f5" form="f5" v-model="f5">
-              <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f1" form="f1" v-model="f1"/>
+              <ul class="player-picker__list" data-player-picker="f1">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f2" form="f2" v-model="f2"/>
+              <ul class="player-picker__list" data-player-picker="f2">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f3" form="f3" v-model="f3"/>
+              <ul class="player-picker__list" data-player-picker="f3">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f4" form="f4" v-model="f4"/>
+              <ul class="player-picker__list" data-player-picker="f4">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f5" form="f5" v-model="f5"/>
+              <ul class="player-picker__list" data-player-picker="f5">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
           </div>
-          <div class="form__item">
+          <div class="form__item form__item--player-group">
             <label class="form__label" for="defensemen">Pick your defensemen</label>
-            <select id="defensemen" name="d1" form="d1" v-model="d1">
-              <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
-            <select name="d2" form="d2" v-model="d2">
-              <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
-            <select name="d3" form="d3" v-model="d3">
-              <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>
-            </select>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="defensemen" name="d1" form="d1" v-model="d1"/>
+              <ul class="player-picker__list" data-player-picker="d1">
+                <li class="player-picker__list-item" v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="defensemen" name="d2" form="d2" v-model="d2"/>
+              <ul class="player-picker__list" data-player-picker="d2">
+                <li class="player-picker__list-item" v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="defensemen" name="d3" form="d3" v-model="d3"/>
+              <ul class="player-picker__list" data-player-picker="d3">
+                <li class="player-picker__list-item" v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
           </div>
-          <div class="form__item">
+          <div class="form__item form__item--player-group">
             <label class="form__label" for="goalies">Pick your goalies</label>
-            <select id="goalies" name="g1" form="g1" v-model="g1">
-              <option v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>        
-            </select>
-            <select name="g2" form="g2" v-model="g2">
-              <option v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-                {{player.name}}
-              </option>        
-            </select>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="goalies" name="g1" form="g1" v-model="g1"/>
+              <ul class="player-picker__list" data-player-picker="g1">
+                <li class="player-picker__list-item" v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="goalies" name="g2" form="g2" v-model="g2"/>
+              <ul class="player-picker__list" data-player-picker="g2">
+                <li class="player-picker__list-item" v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
           </div>
           <button v-on:click="createTeam" class="button">Submit!</button>
         </form>
@@ -118,52 +128,52 @@
             <th>Points</th>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f1.name}}</td>
             <td>{{team.team.forwards.f1.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f2.name}}</td>
             <td>{{team.team.forwards.f2.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f3.name}}</td>
             <td>{{team.team.forwards.f3.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f4.name}}</td>
             <td>{{team.team.forwards.f4.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f5.name}}</td>
             <td>{{team.team.forwards.f5.points}}</td>
           </tr>
           <tr>
-            <td>Defensemen</td>
+            <td>D</td>
             <td>{{team.team.defensemen.d1.name}}</td>
             <td>{{team.team.defensemen.d1.points}}</td>
           </tr>
           <tr>
-            <td>Defensemen</td>
+            <td>D</td>
             <td>{{team.team.defensemen.d2.name}}</td>
             <td>{{team.team.defensemen.d2.points}}</td>
           </tr>
           <tr>
-            <td>Defensemen</td>
+            <td>D</td>
             <td>{{team.team.defensemen.d3.name}}</td>
             <td>{{team.team.defensemen.d3.points}}</td>
           </tr>
           <tr>
-            <td>Goalies</td>
+            <td>G</td>
             <td>{{team.team.goalies.g1.name}}</td>
             <td>{{team.team.goalies.g1.points}}</td>
           </tr>
           <tr>
-            <td>Goalies</td>
+            <td>G</td>
             <td>{{team.team.goalies.g2.name}}</td>
             <td>{{team.team.goalies.g2.points}}</td>
           </tr>
