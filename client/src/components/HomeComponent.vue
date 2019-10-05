@@ -1,6 +1,7 @@
 <template>
   <div class="Home">
-    <div id="description">
+    <div class="description">
+        <h1>History</h1>
         <p>Mo’s Hockey Ho’s was founded in 2018 by Commissioner Mo.</p>
         <p>After trying out many different Fantasy Hockey Leagues, 
             Mo just couldn’t seem to find a format that fit his style. 
@@ -26,9 +27,9 @@
         <p>Sincerely,</p>
         <p>Commissioner Mo</p>
     </div>
-    <div id="twitter">
-      <label for="twitter">The Penalty Box</label>
-      <component-view id="moromiles" sourceType="profile" :options="{ tweetLimit: '5'}"></component-view>
+    <div class="twitter">
+      <h2>The Penalty Box</h2>
+      <component-view id="moromiles" class="twitter__timeline" sourceType="profile" :options="{ tweetLimit: '5'}"></component-view>
     </div>
     <div class="clear"></div>
   </div>
@@ -46,37 +47,3 @@
     }
   }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-#home {
-  margin: auto;
-  width: 90%;
-}
-#description {
-  width: 40%;
-  float: left;
-}
-#twitter {
-  width: 300px;
-  float: left;
-  height: 700px;
-}
-#clear {
-  clear: both;
-}
-</style>

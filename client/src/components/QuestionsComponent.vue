@@ -1,16 +1,19 @@
 <template>
   <div class="Questions">
-      <label for="form">Lay it on me!</label>
+    <h2>Lay it on me!</h2>
     <form class="form" @submit="onSubmit">
-        <label for="name">Name: </label>
-		<input required name="name" v-model='contact.name' placeholder="Name" type="text" autocomplete="off">
-		<br>
-        <label for="email">Email: </label>
-        <input required name="email" v-model="contact.email" placeholder="Email" type="email" autocomplete="off">
-		<br>
-        <label for="message">Yo Mo! I got a question fo yo!</label>
-        <textarea name="message" v-model="contact.message" rows="4" placeholder="Message"></textarea>
-		<br>
+        <div class="form__item">
+            <label class="form__label" for="name">Name</label>
+		    <input required name="name" v-model='contact.name' placeholder="Name" type="text" autocomplete="off">
+        </div>
+        <div class="form__item">
+            <label class="form__label" for="email">Email</label>
+            <input required name="email" v-model="contact.email" placeholder="Email" type="email" autocomplete="off">
+		</div>
+        <div class="form__item">
+            <label class="form__label" for="message">Yo Mo! I got a question fo yo!</label>
+            <textarea name="message" v-model="contact.message" rows="4" placeholder="Message"></textarea>
+        </div>
         <button class="button">Send</button>
 	</form>
   </div>
@@ -52,21 +55,3 @@
         }
     };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
