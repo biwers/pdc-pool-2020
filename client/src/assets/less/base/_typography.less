@@ -38,3 +38,13 @@ h6 {
   text-transform: uppercase;
   font-family: @body;
 }
+
+ol {
+  list-style-type: decimal;
+  &[type="A"] {list-style-type: upper-alpha;}
+  > li {
+    display: list-item;
+    margin: 0 0 0.5rem 0;
+  }
+  ol,ul {margin-top: 0.5rem;}
+}

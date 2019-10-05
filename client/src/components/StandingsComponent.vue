@@ -2,10 +2,10 @@
     <div>
         <h1>Standings</h1>
         <div>
-            <table width=50% align="center">
+            <table class="standings-table">
                 <tr>
-                    <th></th>
-                    <th>Standings</th>
+                    <th>Position</th>
+                    <th>Team</th>
                     <th>Points</th>
                 </tr>
                 <tr
