@@ -42,7 +42,7 @@ async function updatePlayers() {
     const players = await playersdb.find({}).toArray();
     players.forEach(async (player) => {
         const query = {p_id : player.p_id};
-        const url = `https://statsapi.web.nhl.com/api/v1/people/${player.p_id}/stats?stats=singleSeason`
+        const url = `https://statsapi.web.nhl.com/api/v1/people/${player.p_id}/stats?stats=statsSingleSeason`
        //  const url = `https://statsapi.web.nhl.com/api/v1/people/${player.p_id}/stats?stats=statsSingleSeasonPlayoffs&season=20182019`;
         const res = await axios.get(url);
         if(!res.err && res.data.stats[0].splits[0]){
