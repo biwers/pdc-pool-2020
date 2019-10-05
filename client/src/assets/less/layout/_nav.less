@@ -9,10 +9,14 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     &__item {
+      margin: 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
       &:nth-child(even) {
         .menu__link {
           &:before {transform:rotate(3deg);}
@@ -33,6 +37,7 @@
       text-decoration: none;
       position: relative;
       z-index: 1;
+      text-align: center;
       &:before {
         content:'';
         width: calc(100% + 1rem);

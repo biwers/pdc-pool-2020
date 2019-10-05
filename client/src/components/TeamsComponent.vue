@@ -102,11 +102,16 @@
         v-bind:item="team"
         v-bind:index="index"
         v-bind:key="team._id">
-        <h3>{{ `${team.name} | ${team.owner}`}}</h3>
-        <img v-if="team.sid == 'kid'" src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
-        <img v-if="team.sid == 'man'" src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
+        <div class="card card--horizontal card--team">
+          <img v-if="team.sid == 'kid'" src="../../public/images/sid-the-kid.jpg" class="card__image" width=150 alt="Sid the Kid">
+          <img v-if="team.sid == 'man'" src="../../public/images/sid-the-man.jpeg" class="card__image" width=150 alt="Sid the Man">
+          <div class="card__content">
+            <h2 class="card__title">{{ `${team.name}` }}</h2>
+            <h3 class="card__subtitle">{{ `${team.owner}` }}</h3>
+          </div>
+        </div>
         
-        <table width=50% align="center">
+        <table class="team-table">
           <tr>
             <th>Position</th>
             <th>Player</th>
@@ -274,21 +279,3 @@ export default {
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
