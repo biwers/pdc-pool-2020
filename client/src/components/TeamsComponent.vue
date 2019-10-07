@@ -10,78 +10,100 @@
             </ul>
         </p>
         <h1>Create Your Team!</h1>
-        <label for="name-field">Name: </label>
-        <input id="name-field" type="text" name="Name" v-model="name">
-        <br>
-        <label for="owner-field">Owner: </label>
-        <input id="owner-field" type="text" name="Owner" v-model="owner">
-        <br>
-        <input type="radio" name="gender" id="kid" value="kid" class="sr-only" v-model="sid">
-        <label for="kid">
-          <img src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
-        </label>
-        <input type="radio" name="gender" id="man" value="man" class="sr-only" v-model="sid">
-        <label for="man">
-          <img src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
-        </label>
-        <br>
-        <label for="forwards">Pick your forwards: </label>
-        <select id="forwards" name="f1" form="f1" v-model="f1">
-          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-        </select>
-        <select name="f2" form="f2" v-model="f2">
-          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-          </select>
-        <select name="f3" form="f3" v-model="f3">
-          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-          </select>
-        <select name="f4" form="f4" v-model="f4">
-          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-          </select>
-        <select name="f5" form="f5" v-model="f5">
-          <option v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-          </select>
-        <br>
-        <label for="defensemen">Pick your defensemen: </label>
-        <select id="defensemen" name="d1" form="d1" v-model="d1">
-          <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-        </select>
-        <select name="d2" form="d2" v-model="d2">
-          <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-        </select>
-        <select name="d3" form="d3" v-model="d3">
-          <option v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>
-        </select>
-        <br>
-        <label for="goalies">Pick your goalies: </label>
-        <select id="goalies" name="g1" form="g1" v-model="g1">
-          <option v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>        
-        </select>
-        <select name="g2" form="g2" v-model="g2">
-          <option v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>
-            {{player.name}}
-          </option>        
-        </select>
-        <br>
-        <button v-on:click="createTeam">Submit!</button>
+        <form class="form form--team">
+          <div class="form__item">
+            <label class="form__label" for="name-field">Name</label>
+            <input id="name-field" type="text" name="Name" v-model="name">
+          </div>
+          <div class="form__item">
+            <label class="form__label" for="owner-field">Owner</label>
+            <input id="owner-field" type="text" name="Owner" v-model="owner">
+          </div>
+          <div class="form__item form__item--radio-group">
+            <div class="form__item form__item--radio-option">
+              <input type="radio" name="gender" id="kid" value="kid" class="sr-only" v-model="sid">
+              <label class="form__label" for="kid">
+                <img src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
+              </label>
+            </div>
+            <div class="form__item form__item--radio-option">
+              <input type="radio" name="gender" id="man" value="man" class="sr-only" v-model="sid">
+              <label class="form__label" for="man">
+                <img src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
+              </label>
+            </div>
+          </div>
+          <div class="form__item form__item--player-group">
+            <label class="form__label" for="forwards">Pick your forwards</label>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f1" form="f1" v-model="f1"/>
+              <ul class="player-picker__list" data-player-picker="f1">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f2" form="f2" v-model="f2"/>
+              <ul class="player-picker__list" data-player-picker="f2">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f3" form="f3" v-model="f3"/>
+              <ul class="player-picker__list" data-player-picker="f3">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f4" form="f4" v-model="f4"/>
+              <ul class="player-picker__list" data-player-picker="f4">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="forwards" name="f5" form="f5" v-model="f5"/>
+              <ul class="player-picker__list" data-player-picker="f5">
+                <li class="player-picker__list-item" v-for="player in forwards" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+          </div>
+          <div class="form__item form__item--player-group">
+            <label class="form__label" for="defensemen">Pick your defensemen</label>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="defensemen" name="d1" form="d1" v-model="d1"/>
+              <ul class="player-picker__list" data-player-picker="d1">
+                <li class="player-picker__list-item" v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="defensemen" name="d2" form="d2" v-model="d2"/>
+              <ul class="player-picker__list" data-player-picker="d2">
+                <li class="player-picker__list-item" v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="defensemen" name="d3" form="d3" v-model="d3"/>
+              <ul class="player-picker__list" data-player-picker="d3">
+                <li class="player-picker__list-item" v-for="player in defensemen" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+          </div>
+          <div class="form__item form__item--player-group">
+            <label class="form__label" for="goalies">Pick your goalies</label>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="goalies" name="g1" form="g1" v-model="g1"/>
+              <ul class="player-picker__list" data-player-picker="g1">
+                <li class="player-picker__list-item" v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+            <div class="form__item form__item--player-picker">
+              <input type="text" class="player-picker" id="goalies" name="g2" form="g2" v-model="g2"/>
+              <ul class="player-picker__list" data-player-picker="g2">
+                <li class="player-picker__list-item" v-for="player in goalies" v-bind:key="player.id" :value='{"name":player.name, "id":player.p_id}'>{{player.name}}</li>
+              </ul>
+            </div>
+          </div>
+          <button v-on:click="createTeam" class="button">Submit!</button>
+        </form>
     </div>
     <h1>Teams</h1>
     <div>
@@ -90,63 +112,68 @@
         v-bind:item="team"
         v-bind:index="index"
         v-bind:key="team._id">
-        <h3>{{ `${team.name} | ${team.owner}`}}</h3>
-        <img v-if="team.sid == 'kid'" src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
-        <img v-if="team.sid == 'man'" src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
+        <div class="card card--horizontal card--team">
+          <img v-if="team.sid == 'kid'" src="../../public/images/sid-the-kid.jpg" class="card__image" width=150 alt="Sid the Kid">
+          <img v-if="team.sid == 'man'" src="../../public/images/sid-the-man.jpeg" class="card__image" width=150 alt="Sid the Man">
+          <div class="card__content">
+            <h2 class="card__title">{{ `${team.name}` }}</h2>
+            <h3 class="card__subtitle">{{ `${team.owner}` }}</h3>
+          </div>
+        </div>
         
-        <table width=50% align="center">
+        <table class="team-table">
           <tr>
             <th>Position</th>
             <th>Player</th>
             <th>Points</th>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f1.name}}</td>
             <td>{{team.team.forwards.f1.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f2.name}}</td>
             <td>{{team.team.forwards.f2.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f3.name}}</td>
             <td>{{team.team.forwards.f3.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f4.name}}</td>
             <td>{{team.team.forwards.f4.points}}</td>
           </tr>
           <tr>
-            <td>Forward</td>
+            <td>F</td>
             <td>{{team.team.forwards.f5.name}}</td>
             <td>{{team.team.forwards.f5.points}}</td>
           </tr>
           <tr>
-            <td>Defensemen</td>
+            <td>D</td>
             <td>{{team.team.defensemen.d1.name}}</td>
             <td>{{team.team.defensemen.d1.points}}</td>
           </tr>
           <tr>
-            <td>Defensemen</td>
+            <td>D</td>
             <td>{{team.team.defensemen.d2.name}}</td>
             <td>{{team.team.defensemen.d2.points}}</td>
           </tr>
           <tr>
-            <td>Defensemen</td>
+            <td>D</td>
             <td>{{team.team.defensemen.d3.name}}</td>
             <td>{{team.team.defensemen.d3.points}}</td>
           </tr>
           <tr>
-            <td>Goalies</td>
+            <td>G</td>
             <td>{{team.team.goalies.g1.name}}</td>
             <td>{{team.team.goalies.g1.points}}</td>
           </tr>
           <tr>
-            <td>Goalies</td>
+            <td>G</td>
             <td>{{team.team.goalies.g2.name}}</td>
             <td>{{team.team.goalies.g2.points}}</td>
           </tr>
@@ -262,21 +289,3 @@ export default {
   }
 };
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>

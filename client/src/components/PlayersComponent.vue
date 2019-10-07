@@ -4,7 +4,7 @@
         <p class="error" v-if="error">{{ error }}</p>
         <div>
             <div >
-                <table width=50% align="center">
+                <table class="players-table">
                 <tr>
                     <th>Player</th>
                     <th>Position</th>

@@ -1,0 +1,64 @@
+form {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="decimal"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="search"],
+  input[type="time"],
+  input[type="number"],
+  input[type="url"],
+  select,
+  textarea {
+    appearance: none;
+    background: transparent;
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid @border;
+    padding: 1rem;
+    font-family: @body;
+    font-size: 1rem;
+    border-radius: 0px;
+    box-shadow: none;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    &:focus {
+      border-color: @red;
+      box-shadow: 0px 0px 0px 2px @red;
+      outline: none;
+    }
+  }
+}
+
+.form {
+  &__label {
+    display: block;
+    clear: both;
+    margin: 0 0 0.5rem 0;
+    font-weight: @bold;
+    font-size: 1.25rem;
+  }
+  &__item {
+    float: left;
+    display: block;
+    clear: both;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    &--player-picker {
+      margin-bottom: 2rem;
+      input {
+        width: 100%;
+        max-width: 100% !important;
+        display: block;
+        clear: both;
+      }
+      select {
+        width: 100%;
+        max-width: 100% !important;
+        display: block;
+        clear: both;
+      }
+    }
+  }
+  &--team {margin-bottom: 2rem;}
+}

@@ -1,17 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" width="328" height="310">
-    <hr>
-    <router-link to="/">Home</router-link> | 
-    <router-link to="/standings">Standings</router-link> | 
-    <router-link to="/teams">Teams</router-link> | 
-    <router-link to="/rules">Rules</router-link> | 
-    <router-link to="/questions">Questions</router-link> | 
-    <router-link to="/records">The Record Books</router-link> | 
-    <router-link to="/top-hos">Mo's Top Ho's</router-link> | 
-    <router-link to="/players">The Ho's</router-link>
-    <hr>
+    <header class="header">
+      <router-link class="logo" to="/"><img alt="Mo's Top Ho's logo" src="./assets/logo.png" class="logo__img"></router-link>
+      <nav class="nav nav--main">
+        <ul class="menu">
+          <li class="menu__item"><router-link class="menu__link" to="/standings">Standings</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/teams">Teams</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/rules">Rules</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/questions">Questions</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/records">The Record Books</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/top-hos">Mo's Top Ho's</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/players">The Ho's</router-link></li>
+        </ul>
+      </nav>
+    </header>
     <router-view></router-view>
+    <footer class="footer">
+      <div class="footer__copyright">&copy; {{ new Date().getFullYear() }} Commissioner Mo</div>
+    </footer>
   </div>
 </template>
 
@@ -27,12 +33,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import 'https://fonts.googleapis.com/css?family=Gochi+Hand|PT+Sans:400,700&display=swap';
+@import './assets/styles.css';
 </style>
