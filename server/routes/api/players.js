@@ -44,7 +44,7 @@ async function updatePlayers() {
         const query = {p_id : player.p_id};
         const url = `https://statsapi.web.nhl.com/api/v1/people/${player.p_id}/stats?stats=statsSingleSeasonPlayoffs&season=20182019`;
         const res = await axios.get(url);
-        if(!res.err && res.data.stats[0].splits[0]){
+        if(!res.err && res.data.stats[0].splits){
             
             const data = res.data.stats[0].splits[0].stat;
             var points = 0;
