@@ -31,6 +31,12 @@
                 <img src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
               </label>
             </div>
+            <div class="form__item form__item--radio-option">
+              <input type="radio" name="gender" id="beast" value="beast" class="sr-only" v-model="sid">
+              <label class="form__label" for="beast">
+                <img src="../../public/images/sid-the-beast.jpg" width=150 alt="Sid the Beast">
+              </label>
+            </div>
           </div>
           <div class="form__item form__item--player-group">
             <label class="form__label" for="forwards">Pick your forwards</label>

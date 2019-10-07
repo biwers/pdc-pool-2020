@@ -12,6 +12,7 @@
           <li class="menu__item"><router-link class="menu__link" to="/records">The Record Books</router-link></li>
           <li class="menu__item"><router-link class="menu__link" to="/top-hos">Mo's Top Ho's</router-link></li>
           <li class="menu__item"><router-link class="menu__link" to="/players">The Ho's</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/podcast">Podcast</router-link></li>
         </ul>
       </nav>
     </header>
