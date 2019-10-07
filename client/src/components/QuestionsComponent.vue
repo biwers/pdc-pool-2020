@@ -4,7 +4,7 @@
     <form class="form" @submit="onSubmit">
         <div class="form__item">
             <label class="form__label" for="name">Name</label>
-		    <input required name="name" v-model='contact.name' placeholder="Name" type="text" autocomplete="off">
+            <input required name="name" v-model='contact.name' placeholder="Name" type="text" autocomplete="off">
         </div>
         <div class="form__item">
             <label class="form__label" for="email">Email</label>

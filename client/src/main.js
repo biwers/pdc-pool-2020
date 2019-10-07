@@ -4,6 +4,7 @@ import App from './App.vue'
 
 // Import route components
 import Home from './components/HomeComponent';
+import TeamSubmission from './components/TeamSubmissionComponent';
 import Teams from './components/TeamsComponent';
 import Rules from './components/RulesComponent';
 import Questions from './components/QuestionsComponent';
@@ -21,7 +22,8 @@ Vue.use(vueRouter);
 // Setup routes
 const routes = [
   { path: '/', component: Home},
-  { path: '/teams', component: Teams },
+  { path: '/team-submission', component: TeamSubmission},
+  { path: '/teams', component: Teams},
   { path: '/rules', component: Rules },
   { path: '/questions', component: Questions},
   { path: '/records', component: Records},

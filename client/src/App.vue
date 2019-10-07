@@ -5,6 +5,7 @@
       <nav class="nav nav--main">
         <ul class="menu">
           <li class="menu__item"><router-link class="menu__link" to="/standings">Standings</router-link></li>
+          <li class="menu__item"><router-link class="menu__link" to="/team-submission">Submit a Team</router-link></li>
           <li class="menu__item"><router-link class="menu__link" to="/teams">Teams</router-link></li>
           <li class="menu__item"><router-link class="menu__link" to="/rules">Rules</router-link></li>
           <li class="menu__item"><router-link class="menu__link" to="/questions">Questions</router-link></li>
