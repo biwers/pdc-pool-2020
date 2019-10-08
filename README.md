@@ -26,6 +26,7 @@ npm run serve
 - [ ] Add eliminated tag to each player on a team so the player image can be updated with "Hosed" stamp
 - [ ] Add images to errors div on team submission page
 - [x] Sort player stats based on header click
+- [ ] Add heading highlight on sort for players page
 - [ ] Style soundcloud page
 - [ ] Add team dropdown on click for each team on the standings page
 - [ ] Fix player and team update errors to reduce database calls
