@@ -12,6 +12,7 @@ import Records from './components/RecordsComponent';
 import TopHos from './components/TopHosComponent';
 import Players from './components/PlayersComponent';
 import Standings from './components/StandingsComponent';
+import Podcast from './components/PodcastComponent';
 
 import VueRouter from 'vue-router';
 Vue.config.productionTip = false;
@@ -30,6 +31,7 @@ const routes = [
   { path: '/top-hos', component: TopHos},
   { path: '/players', component: Players},
   { path: '/standings', component: Standings},
+  { path: '/podcast', component: Podcast}
 ];
 
 const router = new VueRouter({
