@@ -61,7 +61,16 @@ export default {
     }
   },
   watch:{
-    sortedPlayers:function() {
+    currentSort:function() {
+      return this.players.sort((a,b) => {
+        let modifier = 1;
+      if(this.currentSortDir === 'desc') modifier = -1;
+      if(a[this.currentSort] < b[this.currentSort]) return -1 * modifier;
+      if(a[this.currentSort] > b[this.currentSort]) return 1 * modifier;
+      return 0;
+      });
+    },
+    currentSortDir:function() {
       return this.players.sort((a,b) => {
         let modifier = 1;
       if(this.currentSortDir === 'desc') modifier = -1;
