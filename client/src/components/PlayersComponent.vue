@@ -10,6 +10,7 @@
                     <th @click="sort('name')">Player</th>
                     <th @click="sort('pos')">Position</th>
                     <th @click="sort('team')">Team</th>
+                    <th @click="sort('pv')">Point Value</th>
                     <th @click="sort('points')">Points</th>
                 </tr>
                 </thead>
@@ -22,6 +23,7 @@
                     <td>{{player.name}}</td>
                     <td>{{player.pos}}</td>
                     <td>{{player.team}}</td>
+                    <td>{{player.pv}}</td>
                     <td>{{player.points}}</td>
                 </tr>
                 </tbody>

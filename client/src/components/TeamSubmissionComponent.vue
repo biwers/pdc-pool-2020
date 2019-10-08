@@ -55,8 +55,8 @@
                 <input type="text" class="player-picker" id="forwards" name="f1" form="f1" v-model="f1query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f1-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                    <input v-model="f1" type="radio" :id="'f1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != f2.id && player.p_id != f3.id && player.p_id != f4.id && player.p_id != f5.id" v-show="player.f1visible" :data-player-name="player.name" :for="'f1-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="f1" type="radio" :id="'f1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != f2.id && player.p_id != f3.id && player.p_id != f4.id && player.p_id != f5.id" v-show="player.f1visible" :data-player-name="player.name" :for="'f1-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -66,8 +66,8 @@
                 <input type="text" class="player-picker" id="forwards" name="f2" form="f2" v-model="f2query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f2-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                    <input v-model="f2" type="radio" :id="'f2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != f1.id && player.p_id != f3.id && player.p_id != f4.id && player.p_id != f5.id" v-show="player.f2visible" :data-player-name="player.name" :for="'f2-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="f2" type="radio" :id="'f2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != f1.id && player.p_id != f3.id && player.p_id != f4.id && player.p_id != f5.id" v-show="player.f2visible" :data-player-name="player.name" :for="'f2-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -76,8 +76,8 @@
                 <input type="text" class="player-picker" id="forwards" name="f3" form="f3" v-model="f3query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f3-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                    <input v-model="f3" type="radio" :id="'f3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != f1.id && player.p_id != f2.id && player.p_id != f4.id && player.p_id != f5.id" v-show="player.f3visible" :data-player-name="player.name" :for="'f3-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="f3" type="radio" :id="'f3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != f1.id && player.p_id != f2.id && player.p_id != f4.id && player.p_id != f5.id" v-show="player.f3visible" :data-player-name="player.name" :for="'f3-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -86,8 +86,8 @@
                 <input type="text" class="player-picker" id="forwards" name="f4" form="f4" v-model="f4query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f4-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                    <input v-model="f4" type="radio" :id="'f4-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != f1.id && player.p_id != f2.id && player.p_id != f3.id && player.p_id != f5.id" v-show="player.f4visible" :data-player-name="player.name" :for="'f4-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="f4" type="radio" :id="'f4-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != f1.id && player.p_id != f2.id && player.p_id != f3.id && player.p_id != f5.id" v-show="player.f4visible" :data-player-name="player.name" :for="'f4-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -96,8 +96,8 @@
                 <input type="text" class="player-picker" id="forwards" name="f5" form="f5" v-model="f5query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f5-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                    <input v-model="f5" type="radio" :id="'f5-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != f1.id && player.p_id != f2.id && player.p_id != f3.id && player.p_id != f4.id" v-show="player.f5visible" :data-player-name="player.name" :for="'f5-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="f5" type="radio" :id="'f5-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != f1.id && player.p_id != f2.id && player.p_id != f3.id && player.p_id != f4.id" v-show="player.f5visible" :data-player-name="player.name" :for="'f5-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -111,8 +111,8 @@
                 <input type="text" class="player-picker" id="defensemen" name="d1" form="d1" v-model="d1query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="d1-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
-                    <input v-model="d1" type="radio" :id="'d1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != d2.id && player.p_id != d3.id" v-show="player.d1visible" :data-player-name="player.name" :for="'d1-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="d1" type="radio" :id="'d1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != d2.id && player.p_id != d3.id" v-show="player.d1visible" :data-player-name="player.name" :for="'d1-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -121,8 +121,8 @@
                 <input type="text" class="player-picker" id="defensemen" name="d2" form="d2" v-model="d2query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="d2-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
-                    <input v-model="d2" type="radio" :id="'d2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != d1.id && player.p_id != d3.id" v-show="player.d2visible" :data-player-name="player.name" :for="'d2-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="d2" type="radio" :id="'d2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != d1.id && player.p_id != d3.id" v-show="player.d2visible" :data-player-name="player.name" :for="'d2-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -131,8 +131,8 @@
                 <input type="text" class="player-picker" id="defensemen" name="d3" form="d3" v-model="d3query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="d3-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
-                    <input v-model="d3" type="radio" :id="'d3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != d1.id && player.p_id != d2.id" v-show="player.d3visible" :data-player-name="player.name" :for="'d3-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="d3" type="radio" :id="'d3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != d1.id && player.p_id != d2.id" v-show="player.d3visible" :data-player-name="player.name" :for="'d3-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -145,8 +145,8 @@
                 <input type="text" class="player-picker" id="goalies" name="g1" form="g1"  v-model="g1query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="g1-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
-                    <input v-model="g1" type="radio" :id="'g1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != g2.id" v-show="player.g1visible" :data-player-name="player.name" :for="'g1-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="g1" type="radio" :id="'g1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != g2.id" v-show="player.g1visible" :data-player-name="player.name" :for="'g1-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
               </div>
@@ -155,10 +155,13 @@
                 <input type="text" class="player-picker" id="goalies" name="g2" form="g2" v-model="g2query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="g2-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
-                    <input v-model="g2" type="radio" :id="'g2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                    <label v-if="player.p_id != g1.id" v-show="player.g2visible" :data-player-name="player.name" :for="'g2-radio-' + player.p_id">{{player.name}}</label>
+                    <input v-model="g2" type="radio" :id="'g2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id, "pv":player.pv}'>
+                    <label v-if="player.p_id != g1.id" v-show="player.g2visible" :data-player-name="player.name" :for="'g2-radio-' + player.p_id">{{player.name}} {{player.pv}}</label>
                   </div>
                 </div>
+              </div>
+              <div class="form__team__points">
+                <h2>Team Point Value: {{teamPoints}}</h2> 
               </div>
             </div>
           </div>
@@ -191,6 +194,7 @@ export default {
       d3query: '',
       g1query: '',
       g2query: '',
+      teamPoints: 0,
       name: '',
       owner: '',
       email: '',
@@ -271,6 +275,9 @@ export default {
       if(!this.sid){
         this.errors.push('Please select a Sid');
       }
+      if(this.teamPoints > 25){
+        this.errors.push('Your team is over the allowed point total of 25');
+      }
       if(this.errors.length){
         return;
       }
@@ -301,6 +308,39 @@ export default {
         }
       );
       this.teams = await TeamsService.getTeams();
+    },
+    updateTeamPoints(){
+      this.teamPoints = 0;
+      if(!isNaN(this.f1.pv)){
+        this.teamPoints += this.f1.pv;
+      }
+      if(!isNaN(this.f2.pv)){
+        this.teamPoints += this.f2.pv;
+      }
+      if(!isNaN(this.f3.pv)){
+        this.teamPoints += this.f3.pv;
+      }
+      if(!isNaN(this.f4.pv)){
+        this.teamPoints += this.f4.pv;
+      }
+      if(!isNaN(this.f5.pv)){
+        this.teamPoints += this.f5.pv;
+      }
+      if(!isNaN(this.d1.pv)){
+        this.teamPoints += this.d1.pv;
+      }
+      if(!isNaN(this.d2.pv)){
+        this.teamPoints += this.d2.pv;
+      }
+      if(!isNaN(this.d3.pv)){
+        this.teamPoints += this.d3.pv;
+      }
+      if(!isNaN(this.g1.pv)){
+        this.teamPoints += this.g1.pv;
+      }
+      if(!isNaN(this.g2.pv)){
+        this.teamPoints += this.g2.pv;
+      }
     }
   },
   watch:{
@@ -413,6 +453,36 @@ export default {
           player.g2visible = false;
         }
       });
+    },
+    f1:function() {
+      this.updateTeamPoints();
+    },
+    f2:function() {
+      this.updateTeamPoints();
+    },
+    f3:function() {
+      this.updateTeamPoints();
+    },
+    f4:function() {
+      this.updateTeamPoints();
+    },
+    f5:function() {
+      this.updateTeamPoints();
+    },
+    d1:function() {
+      this.updateTeamPoints();
+    },
+    d2:function() {
+      this.updateTeamPoints();
+    },
+    d3:function() {
+      this.updateTeamPoints();
+    },
+    g1:function() {
+      this.updateTeamPoints();
+    },
+    g2:function() {
+      this.updateTeamPoints();
     }
   }
 };
