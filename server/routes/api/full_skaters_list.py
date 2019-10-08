@@ -24,15 +24,30 @@ for p_id in player_ids:
     player = requests.get('https://statsapi.web.nhl.com/api/v1/people/'+ str(p_id))
     player = player.json()
     pos = "F"
+    pv = 1
     if(player['people'][0]['primaryPosition']['type'] == 'Defenseman'):
         pos = "D"
     if(player['people'][0]['primaryPosition']['type'] == 'Goalie'):
         pos = "G"
+
+    stats = requests.get('https://statsapi.web.nhl.com/api/v1/people/' + str(p_id) + '/stats?stats=statsSingleSeason&season=20182019')
+    stats = stats.json()
+    if(stats['stats'][0]['splits']):
+        stats = stats['stats'][0]['splits'][0]['stat']
+        if(pos == "F"):
+            pv = round(((2*stats['goals'] + stats['assists'])/stats['games']+1)*2)
+        elif(pos == "D"):
+            pv = round(((2*stats['goals'] + stats['assists'])/stats['games']+1)*3)
+    if(pv > 4):
+        pv = 4
+    if(pv < 1):
+        pv = 1
     players.append({"name":str(player['people'][0]['fullName']),
                     "p_id":p_id,
                     "pos":pos,
                     "team":str(player['people'][0]['currentTeam']['name']),
-                    "points":0})
+                    "points":0,
+                    "pv":pv})
 
 from operator import itemgetter
 sorted_players = sorted(players, key=itemgetter('team', 'pos')) 
