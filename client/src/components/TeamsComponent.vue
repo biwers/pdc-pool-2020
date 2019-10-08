@@ -14,6 +14,7 @@
           <div class="card__content">
             <h2 class="card__title">{{ `${team.name}` }}</h2>
             <h3 class="card__subtitle">{{ `${team.owner}` }}</h3>
+            <h3 class="card__subtitle">{{ `Points: ${team.points}` }}</h3>
           </div>
         </div>
         
