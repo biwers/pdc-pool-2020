@@ -12,10 +12,12 @@ app.use(cors());
 const teams = require('./routes/api/teams');
 const players = require('./routes/api/players');
 const questions = require('./routes/api/questions');
+const winners = require('./routes/api/winners');
 
 app.use('/api/teams', teams);
 app.use('/api/players', players);
 app.use('/api/questions', questions);
+app.use('/api/winners', winners);
 
 // Handle production 
 if(process.env .NODE_ENV === 'production'){

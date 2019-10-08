@@ -45,6 +45,9 @@ async function updatePlayers() {
         const url = `https://statsapi.web.nhl.com/api/v1/people/${player.p_id}/stats?stats=statsSingleSeason`
        //  const url = `https://statsapi.web.nhl.com/api/v1/people/${player.p_id}/stats?stats=statsSingleSeasonPlayoffs&season=20182019`;
         const res = await axios.get(url);
+        if(res.err){
+            console.error(err);
+        }
         if(!res.err && res.data.stats[0].splits && res.data.stats[0].splits[0] && res.data.stats[0].splits[0].stat){
             
             const data = res.data.stats[0].splits[0].stat;
