@@ -22,6 +22,7 @@ npm run serve
 - [ ] Add email to team submission page
 - [ ] Add tie equal rank to tied teams on standings page
 - [ ] Move menu to beside the logo and shrink logo size to gain vertical space
+- [ ] Add a point total on upper card for team page
 - [ ] Add eliminated tag to each player on a team so the player image can be updated with "Hosed" stamp
 - [ ] Add images to errors div on team submission page
 - [ ] Sort player stats based on header click
