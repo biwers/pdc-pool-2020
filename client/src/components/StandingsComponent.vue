@@ -13,7 +13,7 @@
                 v-bind:item="team"
                 v-bind:index="index"
                 v-bind:key="team._id">
-                    <td>{{index+1}}</td>
+                    <td>{{team.rank}}</td>
                     <td v-if="team.sid =='kid'"> <img src="../../public/images/sid-the-kid.jpg" alt="Sid the Kid" height=50>  {{team.name}}</td>
                     <td v-if="team.sid =='man'"> <img src="../../public/images/sid-the-man.jpeg" alt="Sid the Man" height=50>  {{team.name}}</td>
                     <td v-if="team.sid =='beast'"> <img src="../../public/images/sid-the-beast.jpg" alt="Sid the Beast" height=50>  {{team.name}}</td>
@@ -38,6 +38,19 @@ export default {
   async created() {
     try {
       this.standings = await TeamsService.getStandings();
+      var i = 1;
+      var prev = null;
+      this.standings.forEach(team => {
+        if(prev === null){
+          team.rank = i;
+        } else if(team.points === prev.points){
+          team.rank = prev.rank;
+        } else{
+          team.rank = i;
+        }
+        i++;
+        prev = team;
+      });
     } catch(error) {
       this.error = error.message;
     }
