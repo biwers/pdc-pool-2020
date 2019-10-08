@@ -31,7 +31,9 @@ npm run serve
 - [ ] Add team dropdown on click for each team on the standings page
 - [ ] Fix player and team update errors to reduce database calls
 - [ ] Add rink display for each team either in a horixontal gallery and/or on the team submission
-- [ ] Add winning team from previous years top ho's and record books
+- [ ] Merge "The Record Books" and "Mo's Top Ho's" into a single page
+- [ ] Add more records
+- [x] Add winning team from previous years top ho's and record books
 - [ ] Last and most importantly add Easter eggs all over the site
 
 ## Database Setup
