@@ -21,7 +21,16 @@
         left: 0;
         width: 0;
         height: 0;
-        &:checked ~ label {background: @yellow;}
+        &:checked {
+           ~ label {background: @yellow;}
+           &:hover,
+           &:focus {
+             ~ label {
+               background: @yellow;
+               text-decoration: underline;
+             }
+           }
+        }
         &:hover,
         &:focus {
           ~ label {background: @blue--light;}

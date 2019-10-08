@@ -19,9 +19,9 @@ npm run serve
 
 ## TODO
 - [ ] Add penalty box to standings page
-- [ ] Add email to team submission page
+- [x] Add email to team submission page
 - [x] Add equal rank to tied teams on standings page
-- [ ] Move menu to beside the logo and shrink logo size to gain vertical space
+- [x] Move menu to beside the logo and shrink logo size to gain vertical space
 - [x] Add a point total on upper card for team page
 - [ ] Add eliminated tag to each player on a team so the player image can be updated with "Hosed" stamp
 - [ ] Add images to errors div on team submission page

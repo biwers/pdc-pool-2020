@@ -9,83 +9,94 @@
             </ul>
         <h1>Create Your Team!</h1>
         <form class="form form--team">
-          <div class="form__item">
-            <label class="form__label" for="name-field">Name</label>
-            <input id="name-field" type="text" name="Name" v-model="name">
-          </div>
-          <div class="form__item">
-            <label class="form__label" for="owner-field">Owner</label>
-            <input id="owner-field" type="text" name="Owner" v-model="owner">
-          </div>
-          <div class="form__item form__item--radio-group">
-            <div class="form__item form__item--radio-option">
-              <input type="radio" name="gender" id="kid" value="kid" class="sr-only" v-model="sid">
-              <label class="form__label" for="kid">
-                <img src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
-              </label>
+          <div class="form__grouping">
+            <div class="form__group form__group--owner">
+              <div class="form__item form__item--reqd">
+                <label class="form__label" for="name-field">Team name</label>
+                <input required id="name-field" type="text" name="Name" v-model="name">
+              </div>
+              <div class="form__item form__item--reqd">
+                <label class="form__label" for="owner-field">Owner name</label>
+                <input required id="owner-field" type="text" name="Owner" v-model="owner">
+              </div>
+              <div class="form__item form__item--reqd">
+                <label for="email-field" class="form__label">Email</label>
+                <input required type="email" id="email-field" name="Email" v-model="email">
+              </div>
             </div>
-            <div class="form__item form__item--radio-option">
-              <input type="radio" name="gender" id="man" value="man" class="sr-only" v-model="sid">
-              <label class="form__label" for="man">
-                <img src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
-              </label>
-            </div>
-            <div class="form__item form__item--radio-option">
-              <input type="radio" name="gender" id="beast" value="beast" class="sr-only" v-model="sid">
-              <label class="form__label" for="beast">
-                <img src="../../public/images/sid-the-beast.jpg" width=150 alt="Sid the Beast">
-              </label>
+            <div class="form__group form__group--sid">
+              <div class="form__item form__item--radio-group form__item--sid">
+                <div class="form__item form__item--radio-option">
+                  <input type="radio" name="gender" id="kid" value="kid" class="sr-only" v-model="sid">
+                  <label class="form__label" for="kid">
+                    <img src="../../public/images/sid-the-kid.jpg" width=150 alt="Sid the Kid">
+                  </label>
+                </div>
+                <div class="form__item form__item--radio-option">
+                  <input type="radio" name="gender" id="man" value="man" class="sr-only" v-model="sid">
+                  <label class="form__label" for="man">
+                    <img src="../../public/images/sid-the-man.jpeg" width=150 alt="Sid the Man">
+                  </label>
+                </div>
+                <div class="form__item form__item--radio-option">
+                  <input type="radio" name="gender" id="beast" value="beast" class="sr-only" v-model="sid">
+                  <label class="form__label" for="beast">
+                    <img src="../../public/images/sid-the-beast.jpg" width=150 alt="Sid the Beast">
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
-
           <div class="form__item form__item--player-group">
             <label class="form__label" for="forwards">Pick your forwards</label>
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="forwards" name="f1" form="f1"/>
-              <div class="player-picker__list">
-                <div class="f1-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                  <input v-model="f1" type="radio" :id="'f1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'f1-radio-' + player.p_id">{{player.name}}</label>
+            <div class="player-group player-group--5">
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="forwards" name="f1" form="f1"/>
+                <div class="player-picker__list">
+                  <div class="f1-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
+                    <input v-model="f1" type="radio" :id="'f1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'f1-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="forwards" name="f2" form="f2"/>
-              <div class="player-picker__list">
-                <div class="f2-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                  <input v-model="f2" type="radio" :id="'f2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'f2-radio-' + player.p_id">{{player.name}}</label>
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="forwards" name="f2" form="f2"/>
+                <div class="player-picker__list">
+                  <div class="f2-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
+                    <input v-model="f2" type="radio" :id="'f2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'f2-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="forwards" name="f3" form="f3"/>
-              <div class="player-picker__list">
-                <div class="f3-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                  <input v-model="f3" type="radio" :id="'f3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'f3-radio-' + player.p_id">{{player.name}}</label>
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="forwards" name="f3" form="f3"/>
+                <div class="player-picker__list">
+                  <div class="f3-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
+                    <input v-model="f3" type="radio" :id="'f3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'f3-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="forwards" name="f4" form="f4"/>
-              <div class="player-picker__list">
-                <div class="f4-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                  <input v-model="f4" type="radio" :id="'f4-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'f4-radio-' + player.p_id">{{player.name}}</label>
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="forwards" name="f4" form="f4"/>
+                <div class="player-picker__list">
+                  <div class="f4-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
+                    <input v-model="f4" type="radio" :id="'f4-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'f4-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="forwards" name="f5" form="f5"/>
-              <div class="player-picker__list">
-                <div class="f5-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
-                  <input v-model="f5" type="radio" :id="'f5-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'f5-radio-' + player.p_id">{{player.name}}</label>
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="forwards" name="f5" form="f5"/>
+                <div class="player-picker__list">
+                  <div class="f5-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
+                    <input v-model="f5" type="radio" :id="'f5-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'f5-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -93,56 +104,58 @@
 
           <div class="form__item form__item--player-group">
             <label class="form__label" for="defensemen">Pick your defensemen</label>
-            
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="defensemen" name="d1" form="d1"/>
-              <div class="player-picker__list">
-                <div class="d1-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
-                  <input v-model="d1" type="radio" :id="'d1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'d1-radio-' + player.p_id">{{player.name}}</label>
+            <div class="player-group player-group--3">
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="defensemen" name="d1" form="d1"/>
+                <div class="player-picker__list">
+                  <div class="d1-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
+                    <input v-model="d1" type="radio" :id="'d1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'d1-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="defensemen" name="d2" form="d2"/>
+                <div class="player-picker__list">
+                  <div class="d2-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
+                    <input v-model="d2" type="radio" :id="'d2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'d2-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="defensemen" name="d3" form="d3"/>
+                <div class="player-picker__list">
+                  <div class="d3-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
+                    <input v-model="d3" type="radio" :id="'d3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'d3-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="defensemen" name="d2" form="d2"/>
-              <div class="player-picker__list">
-                <div class="d2-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
-                  <input v-model="d2" type="radio" :id="'d2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'d2-radio-' + player.p_id">{{player.name}}</label>
-                </div>
-              </div>
-            </div>
-
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="defensemen" name="d3" form="d3"/>
-              <div class="player-picker__list">
-                <div class="d3-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
-                  <input v-model="d3" type="radio" :id="'d3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'d3-radio-' + player.p_id">{{player.name}}</label>
-                </div>
-              </div>
-            </div>
-
           </div>
           <div class="form__item form__item--player-group">
             <label class="form__label" for="goalies">Pick your goalies</label>
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="goalies" name="g1" form="g1"/>
-              <div class="player-picker__list">
-                <div class="g1-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
-                  <input v-model="g1" type="radio" :id="'g1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'g1-radio-' + player.p_id">{{player.name}}</label>
+            <div class="player-group player-group--2">
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="goalies" name="g1" form="g1"/>
+                <div class="player-picker__list">
+                  <div class="g1-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
+                    <input v-model="g1" type="radio" :id="'g1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'g1-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="form__item form__item--player-picker">
-              <input type="text" class="player-picker" id="goalies" name="g2" form="g2"/>
-              <div class="player-picker__list">
-                <div class="g2-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
-                  <input v-model="g2" type="radio" :id="'g2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
-                  <label :for="'g2-radio-' + player.p_id">{{player.name}}</label>
+              <div class="form__item form__item--player-picker">
+                <input type="text" class="player-picker" id="goalies" name="g2" form="g2"/>
+                <div class="player-picker__list">
+                  <div class="g2-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
+                    <input v-model="g2" type="radio" :id="'g2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
+                    <label :for="'g2-radio-' + player.p_id">{{player.name}}</label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -168,6 +181,7 @@ export default {
       errors: [],
       name: '',
       owner: '',
+      email: '',
       sid: '',
       f1: '',
       f2: '',
@@ -203,6 +217,9 @@ export default {
       if(!this.owner){
         this.errors.push('Please add a team owner');
       }
+      if(!this.email) {
+        this.errors.push('Please enter your email');
+      }
       if(!this.f1 || !this.f2 || !this.f3 || !this.f4 || !this.f5){
         this.errors.push('Please select 5 forwards');
       } else if(this.f1.id == this.f2.id || this.f1.id == this.f3.id
@@ -233,6 +250,7 @@ export default {
         {
           name:this.name,
           owner:this.owner,
+          email:this.email,
           sid:this.sid,
           team: {
                 forwards:{

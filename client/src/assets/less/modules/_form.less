@@ -54,6 +54,30 @@ form {
         &:focus {box-shadow: 0px 0px 0px 2px @red inset;}
       }
     }
+    &--player-group > .form__label {text-align: center;}
+    &--sid {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: flex-start;
+      > .form__item {
+        width: 100%;
+        max-width: calc(50% - 1rem);
+        margin-bottom: 1rem;
+      }
+    }
   }
   &--team {margin-bottom: 2rem;}
+  &__grouping {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    > .form__group {
+      width: 100%;
+      max-width: calc(50% - 1rem);
+    }
+  }
 }
