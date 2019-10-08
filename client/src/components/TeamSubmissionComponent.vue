@@ -52,7 +52,7 @@
             <label class="form__label" for="forwards">Pick your forwards</label>
             <div class="player-group player-group--5">
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="forwards" name="f1" form="f1" v-model="f1query">
+                <input type="text" class="player-picker" id="forwards" name="f1" form="f1" v-model="f1query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f1-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
                     <input v-model="f1" type="radio" :id="'f1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -63,7 +63,7 @@
   
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="forwards" name="f2" form="f2" v-model="f2query"/>
+                <input type="text" class="player-picker" id="forwards" name="f2" form="f2" v-model="f2query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f2-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
                     <input v-model="f2" type="radio" :id="'f2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -73,7 +73,7 @@
               </div>
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="forwards" name="f3" form="f3" v-model="f3query"/>
+                <input type="text" class="player-picker" id="forwards" name="f3" form="f3" v-model="f3query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f3-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
                     <input v-model="f3" type="radio" :id="'f3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -83,7 +83,7 @@
               </div>
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="forwards" name="f4" form="f4" v-model="f4query"/>
+                <input type="text" class="player-picker" id="forwards" name="f4" form="f4" v-model="f4query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f4-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
                     <input v-model="f4" type="radio" :id="'f4-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -93,7 +93,7 @@
               </div>
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="forwards" name="f5" form="f5" v-model="f5query"/>
+                <input type="text" class="player-picker" id="forwards" name="f5" form="f5" v-model="f5query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="f5-input-list player-picker__list-item" v-for="player in forwards" :key="player.id">
                     <input v-model="f5" type="radio" :id="'f5-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -108,7 +108,7 @@
             <label class="form__label" for="defensemen">Pick your defensemen</label>
             <div class="player-group player-group--3">
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="defensemen" name="d1" form="d1" v-model="d1query"/>
+                <input type="text" class="player-picker" id="defensemen" name="d1" form="d1" v-model="d1query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="d1-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
                     <input v-model="d1" type="radio" :id="'d1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -118,7 +118,7 @@
               </div>
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="defensemen" name="d2" form="d2" v-model="d2query"/>
+                <input type="text" class="player-picker" id="defensemen" name="d2" form="d2" v-model="d2query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="d2-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
                     <input v-model="d2" type="radio" :id="'d2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -128,7 +128,7 @@
               </div>
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="defensemen" name="d3" form="d3" v-model="d3query"/>
+                <input type="text" class="player-picker" id="defensemen" name="d3" form="d3" v-model="d3query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="d3-input-list player-picker__list-item" v-for="player in defensemen" :key="player.id">
                     <input v-model="d3" type="radio" :id="'d3-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -142,7 +142,7 @@
             <label class="form__label" for="goalies">Pick your goalies</label>
             <div class="player-group player-group--2">
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="goalies" name="g1" form="g1"  v-model="g1query"/>
+                <input type="text" class="player-picker" id="goalies" name="g1" form="g1"  v-model="g1query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="g1-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
                     <input v-model="g1" type="radio" :id="'g1-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
@@ -152,7 +152,7 @@
               </div>
 
               <div class="form__item form__item--player-picker">
-                <input type="text" class="player-picker" id="goalies" name="g2" form="g2" v-model="g2query"/>
+                <input type="text" class="player-picker" id="goalies" name="g2" form="g2" v-model="g2query" placeholder="Search..."/>
                 <div class="player-picker__list">
                   <div class="g2-input-list player-picker__list-item" v-for="player in goalies" :key="player.id">
                     <input v-model="g2" type="radio" :id="'g2-radio-' + player.p_id" :value='{"name":player.name, "id":player.p_id}'>
