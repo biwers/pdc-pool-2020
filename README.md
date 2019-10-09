@@ -31,7 +31,7 @@ npm run serve
 - [ ] Add team dropdown on click for each team on the standings page
 - [ ] Fix player and team update errors to reduce database calls
 - [ ] Add rink display for each team either in a horixontal gallery and/or on the team submission
-- [ ] Merge "The Record Books" and "Mo's Top Ho's" into a single page
+- [x] Merge "The Record Books" and "Mo's Top Ho's" into a single page
 - [x] Add more records
 - [x] Prevent form from reloading page when there are errors
 - [ ] Style error p element on team submission page

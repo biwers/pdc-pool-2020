@@ -9,7 +9,7 @@ import Teams from './components/TeamsComponent';
 import Rules from './components/RulesComponent';
 import Questions from './components/QuestionsComponent';
 import Records from './components/RecordsComponent';
-import TopHos from './components/TopHosComponent';
+// import TopHos from './components/TopHosComponent';
 import Players from './components/PlayersComponent';
 import Standings from './components/StandingsComponent';
 import Podcast from './components/PodcastComponent';
@@ -28,7 +28,7 @@ const routes = [
   { path: '/rules', component: Rules },
   { path: '/questions', component: Questions},
   { path: '/records', component: Records},
-  { path: '/top-hos', component: TopHos},
+  // { path: '/top-hos', component: TopHos},
   { path: '/players', component: Players},
   { path: '/standings', component: Standings},
   { path: '/podcast', component: Podcast}
