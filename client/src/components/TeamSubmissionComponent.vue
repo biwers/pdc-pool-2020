@@ -262,6 +262,9 @@ export default {
       if(!this.g1 || !this.g2){
         this.errors.push('Please select 2 goalies');
       }
+      if(!this.sid){
+        this.errors.push('Please select a sid');
+      }
       if(this.teamPoints > 25){
         this.errors.push('Your team is over the allowed point total of 25');
       }
