@@ -180,7 +180,6 @@ export default {
   name: 'TeamSubmissionComponent',
   data() {
     return {
-      teams: [],
       forwards: [],
       defensemen: [],
       goalies: [],
@@ -214,7 +213,6 @@ export default {
   },
   async created() {
     try {
-      this.teams = await TeamsService.getTeams();
       this.forwards= await PlayersService.getPlayersByType("F");
       this.forwards.forEach(player => {
         player.f1visible = true;
@@ -297,7 +295,7 @@ export default {
           }
         }
       );
-      this.teams = await TeamsService.getTeams();
+      this.$router.push('/teams');
     },
     updateTeamPoints(){
       this.teamPoints = 0;

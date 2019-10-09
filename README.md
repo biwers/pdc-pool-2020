@@ -36,6 +36,7 @@ npm run serve
 - [x] Prevent form from reloading page when there are errors
 - [ ] Style error p element on team submission page
 - [x] Add winning team from previous years top ho's and record books
+- [x] Automatically send email after team submission
 - [ ] Last and most importantly add Easter eggs all over the site
 
 ## Database Setup

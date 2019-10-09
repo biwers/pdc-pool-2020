@@ -2,7 +2,17 @@ const express = require('express');
 const mongodb = require('mongodb');
 const dotenv = require('dotenv');
 const cron = require('node-cron');
+const nodemailer = require('nodemailer');
 dotenv.config();
+
+// Setup email transporter
+let transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL,
+      pass: process.env.EMAIL_PASSWORD
+    }
+  });
 
 const router = express.Router();
 
@@ -55,12 +65,38 @@ router.post('/', async (req, res) => {
         points: 0,
         createdAt: new Date()
     });
+    sendMail(req.body.team.name, req.body.team.email, req.body.team.owner);
     res.status(201).send();
 });
 
 async function loadTeamsCollection() {
     const client = await mongodb.MongoClient.connect(process.env.DATABASE_CONNECTION_STRING, {useUnifiedTopology: true, useNewUrlParser: true });
     return client.db('teams').collection('teams');
+}
+
+function sendMail(name, email, person) {
+    let mailOptions = {
+        from: process.env.EMAIL,
+        to: email,
+        subject: `${name} submitted to Mo's Hockey Ho's 2019-2020!`,
+        text: `Dear ${person},
+        
+Thank you for your submission!
+Your team ${name} has officially been submitted!
+Teams and Standings will be updated once playoffs start.
+May the Top Ho Win.
+        
+Sincerely,
+    Commissioner Mo`
+    };
+      
+    transporter.sendMail(mailOptions, function(error, info){
+        if (error) {
+            console.log(error);
+        } else {
+            console.log('Email sent: ' + info.response);
+        }
+    });
 }
 
 async function updateTeams() {
