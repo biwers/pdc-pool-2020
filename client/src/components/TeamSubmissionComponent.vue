@@ -1,14 +1,8 @@
 <template>
   <div class="container">
     <div class="create-team">
-        <p v-if="errors.length">
-          <b>Please correct the following error(s):</b>
-            <ul>
-              <li v-for="(error, index) in errors"
-              v-bind:key="index">{{ error }}</li>
-            </ul>
         <h1>Create Your Team!</h1>
-        <form class="form form--team">
+        <form class="form form--team" v-on:submit.prevent="createTeam">
           <div class="form__grouping">
             <div class="form__group form__group--owner">
               <div class="form__item form__item--reqd">
@@ -165,7 +159,14 @@
               </div>
             </div>
           </div>
-          <button v-on:click="createTeam" class="button">Submit!</button>
+          <p v-if="errors.length">
+            <b>Please correct the following error(s):</b>
+              <ul>
+                <li v-for="(error, index) in errors"
+                v-bind:key="index">{{ error }}</li>
+              </ul>
+          </p>
+          <button class="button">Submit!</button>
         </form>
     </div>
   </div>
@@ -254,26 +255,12 @@ export default {
       }
       if(!this.f1 || !this.f2 || !this.f3 || !this.f4 || !this.f5){
         this.errors.push('Please select 5 forwards');
-      } else if(this.f1.id == this.f2.id || this.f1.id == this.f3.id
-        || this.f1.id == this.f4.id || this.f1.id == this.f5.id
-        || this.f2.id == this.f3.id || this.f2.id == this.f4.id
-        || this.f2.id == this.f5.id || this.f3.id == this.f4.id 
-        || this.f3.id == this.f5.id || this.f4.id == this.f5.id){
-        this.errors.push('Cannot have duplicate forwards');
       }
       if(!this.d1 || !this.d2 || !this.d3){
         this.errors.push('Please select 3 defensemen');
-      } else if(this.d1.id == this.d2.id || this.d1.id == this.d3.id 
-      || this.d2.id == this.d3.id){
-        this.errors.push('Cannot have duplicate defensemen');
       }
       if(!this.g1 || !this.g2){
         this.errors.push('Please select 2 goalies');
-      } else if(this.g1.id == this.g2.id){
-        this.errors.push('Cannot have duplicate goalies');
-      }
-      if(!this.sid){
-        this.errors.push('Please select a Sid');
       }
       if(this.teamPoints > 25){
         this.errors.push('Your team is over the allowed point total of 25');

@@ -32,7 +32,9 @@ npm run serve
 - [ ] Fix player and team update errors to reduce database calls
 - [ ] Add rink display for each team either in a horixontal gallery and/or on the team submission
 - [ ] Merge "The Record Books" and "Mo's Top Ho's" into a single page
-- [ ] Add more records
+- [x] Add more records
+- [x] Prevent form from reloading page when there are errors
+- [ ] Style error p element on team submission page
 - [x] Add winning team from previous years top ho's and record books
 - [ ] Last and most importantly add Easter eggs all over the site
 
